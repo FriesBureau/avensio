@@ -6,7 +6,7 @@ import {HttpClient, HttpHeaders, HttpErrorResponse,HttpParams} from '@angular/co
 import { Observable, of, throwError } from 'rxjs';
 
 const state = {
-  products: JSON.parse(localStorage['products'] || '[]'),
+  // products: JSON.parse(localStorage['products'] || '[]'),
   wishlist: JSON.parse(localStorage['wishlistItems'] || '[]'),
   compare: JSON.parse(localStorage['compareItems'] || '[]'),
   cart: JSON.parse(localStorage['cartItems'] || '[]'),
@@ -24,16 +24,22 @@ export class ProductService {
 
   private localproductsUrl = 'http://localhost:4009/api/product/';
   private localcartUrl =  'http://localhost:4009/api/cart/';
-  private nodemongoUrl = 'http://localhost:4009/api/product/';
+  private nodemongoUrl = '/api/product/';
+  private productionUrl ='https://avensio.friesbureau.dk/api/product/';
+  private localurl = 'assets/data/products.json'
   
   httpOptions = {
     headers: new HttpHeaders(
       { 
         'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
+        //   'Access-Control-Allow-Origin': '*',
+         'Access-Control-Allow-Methods': 'GET, POST, PATCH, DELETE, PUT, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With',
+
       }),
       // the most important option
-    withCredentials: true
+//    withCredentials: true
+//withCredentials: false // midlertidig ændring
   };
   
 
@@ -65,8 +71,26 @@ export class ProductService {
       }
 */
 
+ /** GET products from the API server */
+ getProducts2 (): Observable<Product[]> {
+  return this.http.get<Product[]>(this.localproductsUrl, this.httpOptions)
+  .pipe(
+    retry(0),
+    catchError(this.handleError)
+  )
+} 
+
+public getProductBySlug2(slug: string): Observable<Product> {
+  return this.http.get<Product[]>(this.localproductsUrl, this.httpOptions)
+  .pipe(map(items => { 
+    return items.find((item: any) => { 
+      return item.title.replace(' ', '-') === slug; 
+    }); 
+  }));
+} 
+
   /* Get single product data by ID*/
-  getProductID (id): Observable<Product> {
+  public getProductbyID (id): Observable<Product> {
     return this.http
     .get<Product>(this.localproductsUrl + '' + id, this.httpOptions)
  // .get<Product>(this.productsUrl + id, this.httpOptions)
@@ -78,17 +102,19 @@ export class ProductService {
   }
 
   /* Product - Oprindelig Template */
-  private get products(): Observable<Product[]> {
-    this.Products = this.http.get<Product[]>('assets/data/products.json').pipe(map(data => data));
+  public get products(): Observable<Product[]> {
+    this.Products = this.http.get<Product[]>('http://localhost:4009/assets/data/products.json').pipe(map(data => data));
     this.Products.subscribe(next => { localStorage['products'] = JSON.stringify(next) });
     return this.Products = this.Products.pipe(startWith(JSON.parse(localStorage['products'] || '[]')));
   }
  
 
-  // Get Products
+  // Get Products 
+
+  /*
   public get getProducts(): Observable<Product[]> {
     return this.products;
-  }
+  } 
 
   // Get Products By Slug
   public getProductBySlug(slug: string): Observable<Product> {
@@ -99,7 +125,7 @@ export class ProductService {
     }));
   } 
 
-
+*/
   /*
     ---------------------------------------------
     ---------------  Wish List  -----------------
@@ -113,7 +139,7 @@ export class ProductService {
       observer.complete();
     });
     return <Observable<Product[]>>itemsStream;
-  }
+  } 
 
   // Add to Wishlist
   public addToWishlist(product): any {

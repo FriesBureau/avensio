@@ -10,10 +10,10 @@ import { ProductService } from '../../services/product.service';
 export class CategoriesComponent implements OnInit {
 
   public products: Product[] = [];
-  public collapse: boolean = true;
+  public collapse: boolean = true; 
 
   constructor(public productService: ProductService) { 
-    this.productService.getProducts.subscribe(product => this.products = product);
+    this.productService.getProducts2().subscribe(product => this.products = product);
   }
 
   ngOnInit(): void {

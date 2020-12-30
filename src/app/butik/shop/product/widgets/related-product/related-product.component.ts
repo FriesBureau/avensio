@@ -14,7 +14,7 @@ export class RelatedProductComponent implements OnInit {
   public products: Product[] = [];
 
   constructor(public productService: ProductService) { 
-    this.productService.getProducts.subscribe(response => 
+    this.productService.getProducts2().subscribe(response => 
       this.products = response.filter(item => item.type == this.type)
     );
   }

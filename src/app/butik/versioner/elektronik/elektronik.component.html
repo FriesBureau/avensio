@@ -60,24 +60,27 @@
                         <ng-template ngbTabTitle>{{collection}}</ng-template>
                         <ng-template ngbTabContent>
                           <div class="no-slider row">
-                            <ng-container *ngFor="let product of getCollectionProducts(collection) | slice:0:8">
-                              <div class="product-box">
-                                <app-product-box-one 
-                                  [product]="product" 
-                                  [currency]="productService?.Currency">
-                                </app-product-box-one>
-                              </div>
-                            </ng-container>
+                            <ng-container *ngFor="let product of products2 | slice:0:8">
+                                <div class="product-box"> 
+                                    
+                                  <app-product-box-one 
+                                    [product]="product" 
+                                    [currency]="productService?.Currency"> 
+                                  </app-product-box-one>
+                                </div>
+                              </ng-container>
+                         
                           </div>
                         </ng-template>
                       </ngb-tab>
-                    </ngb-tabset>
+                    </ngb-tabset> 
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- slider tab end -->
+<!-- slider tab end --> 
+ 
 
 <!-- Cart Open To bottom Side-->
 <app-cart-variation [direction]="'left'"></app-cart-variation> 

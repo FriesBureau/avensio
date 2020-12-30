@@ -23,7 +23,7 @@ export class ProductBoxOneComponent implements OnInit {
 
   public ImageSrc : string
 
-  constructor(private productService: ProductService) { }
+  constructor(private productService: ProductService) { } 
 
   ngOnInit(): void {
     if(this.loader) {
@@ -62,7 +62,7 @@ export class ProductBoxOneComponent implements OnInit {
 
   addToCart(product: any) {
     this.productService.addToCart(product);
-  }
+  } 
 
   addToWishlist(product: any) {
     this.productService.addToWishlist(product);

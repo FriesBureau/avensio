@@ -2,6 +2,7 @@ import { Schema } from 'mongoose';
 import * as mongoose from 'mongoose';
 
 const ProductsSchema: Schema = new Schema({
+  /*
   id: { type: Number, required: true },
   quantity: { type: Number, required: true },
   title: { type: String, required: true },
@@ -19,6 +20,7 @@ const ProductsSchema: Schema = new Schema({
   variants: { type: String, required: true },
   images: { type: String, required: true },
   updatedAt: { type: Date, default: Date.now }
+  */
 });
 
 export default mongoose.model('Product', ProductsSchema);

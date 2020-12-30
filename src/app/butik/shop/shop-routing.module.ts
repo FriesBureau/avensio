@@ -26,6 +26,8 @@ const routes: Routes = [
 {
     path: 'product/left/sidebar/:slug',
     component: ProductLeftSidebarComponent,
+  
+
   }, 
   {
     path: 'product/left/sidebar/:id',
@@ -45,9 +47,6 @@ const routes: Routes = [
   {
     path: 'product/no/sidebar/:slug',
     component: ProductNoSidebarComponent,
-    resolve: {
-      data: Resolver
-    }
   },
   {
     path: 'product/three/column/:slug',
