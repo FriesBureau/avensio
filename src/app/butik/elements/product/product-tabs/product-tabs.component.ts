@@ -12,7 +12,7 @@ export class ProductTabsComponent implements OnInit {
   public products: Product[] = [];
 
   constructor(public productService: ProductService) { 
-    this.productService.getProducts.subscribe(response => this.products = response);
+    this.productService.getProducts2().subscribe(response => this.products = response);
   }
 
   ngOnInit(): void {

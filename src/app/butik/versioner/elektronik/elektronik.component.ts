@@ -14,16 +14,50 @@ export class ElektronikComponent implements OnInit, OnDestroy {
   public themeLogo: string = 'assets/images/icon/logo-10.png'; // Change Logo
 
   public products: Product[] = [];
+  public products2: Product[] = [];
   public productCollections: any[] = [];
 
   constructor(
     public productService: ProductService,
     private title: Title, 
     private meta: Meta) {
-    this.productService.getProducts.subscribe(response => {
-      this.products = response.filter(item => item.type == 'elektronik');
-      // Get Product Collection
-      this.products.filter((item) => {
+ 
+ /*
+    
+      this.productService.getProducts2()
+      .subscribe((response: any) => {
+        this.products2 = response;
+         console.log('products2',this.products2);
+      }, err => {
+        console.log(err);
+      });
+ */
+
+    this.productService.getProducts2().subscribe((response: any) => {
+      //  this.products2 = response;
+    this.products2 = response.filter(item => item.type == 'elektronik');
+
+      // Set meta tags
+      this.title.setTitle('Avensio - Demo webbutik - Elektronik');
+      this.meta.addTags([
+        { name: 'twitter:card', content: 'summary' },
+        { name: 'twitter:description', content: 'Avensio - Er en Fries Bureau webbutik lavet med Angular 9 - Se mere om vores tilbud her: https://friesbureau.dk/udvikling' },
+        { name: 'twitter:site', content: 'https://avensio.friesbureau.dk/butik/elektronik' },
+        { name: 'twitter:image', content: 'https://avensio.friesbureau.dk/assets/images/product/elektronik/3.jpg' },
+    
+        { property: 'og:url', content: 'https://avensio.friesbureau.dk/butik/elektronik' },
+        { property: 'og:title', content: 'Avensio - Demo webbutik - Elektronik' },
+        { property: 'og:description', content: 'Avensio - Er en Fries Bureau webbutik lavet med Angular 9 - Se mere om vores tilbud her: https://friesbureau.dk/udvikling' },
+        { property: 'og:image', content: 'https://avensio.friesbureau.dk/assets/images/product/elektronik/3.jpg'  },
+        { property: 'og:type', content: 'product'},
+        { property: 'og:locale', content: 'da_DK'},
+    
+        {name: 'title', content:  'Avensio - Demo webbutik - Elektronik' },
+        {name: 'description', content:  'Avensio - Er en Fries Bureau webbutik lavet med Angular 9 - Se mere om vores tilbud her: https://friesbureau.dk/udvikling'},
+        {name: 'robots', content: 'index, follow'}
+      ]); 
+      // Get Product Collection 
+      this.products2.filter((item) => {
         item.collection.filter((collection) => {
           const index = this.productCollections.indexOf(collection);
           if (index === -1) this.productCollections.push(collection);
@@ -50,30 +84,15 @@ export class ElektronikComponent implements OnInit, OnDestroy {
 
   data = {
     titel: 'Fries.. Dit udviklende og kreative digitale bureau. Find din digitale identitet !',
-    beskrivelse: 'Vi udvikler din digitale virkelighed. Visuel identitet i video og billeder. Digital marketing, kommunikation og strategi. Webudvikling, websites og webbutik. Og virksomheds- eller politisk fortælling.',
+    beskrivelse: 'Forside beskrivelse',
     billede: '../../../assets/svg.logo.svg'
   };
   
 
   ngOnInit() {
-    this.title.setTitle(this.data.titel);
-    this.meta.addTags([
-      { name: 'twitter:card', content: 'summary' },
-      { name: 'twitter:description', content: this.data.beskrivelse },
-      { name: 'twitter:site', content: 'https://friesbureau.dk' },
-      { name: 'twitter:image', content: this.data.billede },
-  
-      { property: 'og:url', content: 'https://friesbureau.dk' },
-      { property: 'og:title', content: this.data.titel },
-      { property: 'og:description', content: this.data.beskrivelse },
-      { property: 'og:image', content: this.data.billede },
-      { property: 'og:type', content: 'product'},
-      { property: 'og:locale', content: 'da_DK'},
-  
-      {name: 'title', content:  this.data.titel },
-      {name: 'description', content:  this.data.beskrivelse },
-      {name: 'robots', content: 'index, follow'}
-    ]);
+ 
+    
+
     // Change color for this layout
     document.documentElement.style.setProperty('--theme-deafult', '#6d7e87');
   }
@@ -82,6 +101,10 @@ export class ElektronikComponent implements OnInit, OnDestroy {
     // Remove Color
     document.documentElement.style.removeProperty('--theme-deafult');
   }
+
+  
+  
+ 
 
   // Product Tab collection
   getCollectionProducts(collection) {

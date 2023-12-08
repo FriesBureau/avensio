@@ -1,0 +1,5277 @@
+[{
+    "id": 1,
+    "title": "trim dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "nike",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 145,
+    "sale": true,
+    "discount": "40",
+    "stock": 5,
+    "new": true,
+    "tags": [
+        "new",
+        "s",
+        "m",
+        "yellow",
+        "white",
+        "pink",
+        "nike"
+    ],
+    "variants": [{
+            "variant_id": 101,
+            "id": 1,
+            "sku": "sku1",
+            "size": "s",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 111
+        },
+        {
+            "variant_id": 102,
+            "id": 1,
+            "sku": "sku2",
+            "size": "s",
+            "color": "white",
+            "image_id": 112
+        },
+        {
+            "variant_id": 103,
+            "id": 1,
+            "sku": "sku3",
+            "size": "s",
+            "color": "pink",
+            "image_id": 113
+        },
+        {
+            "variant_id": 104,
+            "id": 1,
+            "sku": "sku4",
+            "size": "m",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 111
+        },
+        {
+            "variant_id": 105,
+            "id": 1,
+            "sku": "sku5",
+            "size": "m",
+            "color": "white",
+            "image_id": 112
+        },
+        {
+            "variant_id": 106,
+            "id": 1,
+            "sku": "sku5",
+            "size": "m",
+            "color": "pink",
+            "image_id": 113
+        },
+        {
+            "variant_id": 107,
+            "id": 1,
+            "sku": "sku1",
+            "size": "l",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 111
+        }
+    ],
+    "images": [{
+            "image_id": 111,
+            "id": 1,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/39.jpg",
+            "variant_id": [
+                101,
+                104
+            ]
+        },
+        {
+            "image_id": 112,
+            "id": 1,
+            "alt": "white",
+            "src": "assets/images/product/fashion/6.jpg",
+            "variant_id": [
+                102,
+                105
+            ]
+        },
+        {
+            "image_id": 113,
+            "id": 1,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/25.jpg",
+            "variant_id": [
+                103,
+                106
+            ]
+        }
+    ]
+}, {
+    "id": 2,
+    "title": "belted dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "zara",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 185,
+    "sale": false,
+    "discount": "40",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "s",
+        "m",
+        "l",
+        "olive",
+        "navy",
+        "red",
+        "zara"
+    ],
+    "variants": [{
+            "variant_id": 201,
+            "id": 2,
+            "sku": "sku1",
+            "size": "s",
+            "color": "olive",
+            "image_id": 211
+        },
+        {
+            "variant_id": 202,
+            "id": 2,
+            "sku": "sku2",
+            "size": "s",
+            "color": "navy",
+            "image_id": 212
+        },
+        {
+            "variant_id": 203,
+            "id": 2,
+            "sku": "sku3",
+            "size": "s",
+            "color": "red",
+            "image_id": 213
+        },
+        {
+            "variant_id": 204,
+            "id": 2,
+            "sku": "sku4",
+            "size": "m",
+            "color": "olive",
+            "image_id": 211
+        },
+        {
+            "variant_id": 205,
+            "id": 2,
+            "sku": "sku4",
+            "size": "m",
+            "color": "navy",
+            "image_id": 212
+        },
+        {
+            "variant_id": 206,
+            "id": 2,
+            "sku": "sku4",
+            "size": "m",
+            "color": "red",
+            "image_id": 213
+        },
+        {
+            "variant_id": 207,
+            "id": 2,
+            "sku": "sku4",
+            "size": "l",
+            "color": "olive",
+            "image_id": 211
+        },
+        {
+            "variant_id": 208,
+            "id": 2,
+            "sku": "sku4",
+            "size": "l",
+            "color": "navy",
+            "image_id": 212
+        },
+        {
+            "variant_id": 209,
+            "id": 2,
+            "sku": "sku4",
+            "size": "l",
+            "color": "red",
+            "image_id": 213
+        }
+    ],
+    "images": [{
+            "image_id": 211,
+            "id": 2,
+            "alt": "olive",
+            "src": "assets/images/product/fashion/3.jpg",
+            "variant_id": [
+                201,
+                204,
+                207
+            ]
+        },
+        {
+            "image_id": 212,
+            "id": 2,
+            "alt": "navy",
+            "src": "assets/images/product/fashion/4.jpg",
+            "variant_id": [
+                202,
+                205,
+                208
+            ]
+        },
+        {
+            "image_id": 213,
+            "id": 2,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/5.jpg",
+            "variant_id": [
+                203,
+                206,
+                209
+            ]
+        },
+        {
+            "image_id": 214,
+            "id": 2,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/15.jpg",
+            "variant_id": [
+                201,
+                204
+            ]
+        }
+    ]
+}, {
+    "id": 3,
+    "title": "fitted dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "denim",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 174,
+    "sale": false,
+    "discount": "40",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "denim",
+        "l",
+        "m",
+        "white",
+        "black"
+    ],
+    "variants": [{
+            "variant_id": 301,
+            "id": 3,
+            "sku": "sku3",
+            "size": "l",
+            "color": "white",
+            "image_id": 311
+        },
+        {
+            "variant_id": 302,
+            "id": 3,
+            "sku": "skul3",
+            "size": "m",
+            "color": "white",
+            "image_id": 311
+        },
+        {
+            "variant_id": 303,
+            "id": 3,
+            "sku": "sku3l",
+            "size": "l",
+            "color": "black",
+            "image_id": 312
+        },
+        {
+            "variant_id": 304,
+            "id": 3,
+            "sku": "sku4m",
+            "size": "m",
+            "color": "black",
+            "image_id": 312
+        }
+    ],
+    "images": [{
+            "image_id": 311,
+            "id": 3,
+            "alt": "white",
+            "src": "assets/images/product/fashion/1.jpg",
+            "variant_id": [
+                301,
+                303
+            ]
+        },
+        {
+            "image_id": 312,
+            "id": 1,
+            "alt": "white",
+            "src": "assets/images/product/fashion/2.jpg",
+            "variant_id": [
+                302,
+                304
+            ]
+        }
+    ]
+}, {
+    "id": 4,
+    "title": "belted top",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "madame",
+    "collection": ["nye produkter", "på udsalg"],
+    "category": "Women",
+    "price": 98,
+    "sale": false,
+    "discount": "50",
+    "stock": 10,
+    "new": true,
+    "tags": [
+        "s",
+        "l",
+        "white",
+        "skyblue",
+        "madame"
+    ],
+    "variants": [{
+            "variant_id": 401,
+            "id": 4,
+            "sku": "sku4",
+            "size": "s",
+            "color": "white",
+            "image_id": 411
+        },
+        {
+            "variant_id": 402,
+            "id": 4,
+            "sku": "skul4",
+            "size": "l",
+            "color": "white",
+            "image_id": 411
+        },
+        {
+            "variant_id": 403,
+            "id": 4,
+            "sku": "sku4s",
+            "size": "s",
+            "color": "skyblue",
+            "image_id": 412
+        },
+        {
+            "variant_id": 404,
+            "id": 4,
+            "sku": "sku4l",
+            "size": "l",
+            "color": "skyblue",
+            "image_id": 412
+        }
+    ],
+    "images": [{
+            "image_id": 411,
+            "id": 4,
+            "alt": "white",
+            "src": "assets/images/product/fashion/8.jpg",
+            "variant_id": [
+                401,
+                402
+            ]
+        },
+        {
+            "image_id": 412,
+            "id": 4,
+            "alt": "skyblue",
+            "src": "assets/images/product/fashion/7.jpg",
+            "variant_id": [
+                403,
+                404
+            ]
+        }
+    ]
+}, {
+    "id": 5,
+    "title": "waist dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 230,
+    "sale": true,
+    "discount": "20",
+    "stock": 4,
+    "new": true,
+    "tags": [
+        "m",
+        "l",
+        "green",
+        "black",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 501,
+            "id": 5,
+            "sku": "sku5",
+            "size": "m",
+            "color": "green",
+            "image_id": 511
+        },
+        {
+            "variant_id": 502,
+            "id": 5,
+            "sku": "skul5",
+            "size": "l",
+            "color": "green",
+            "image_id": 511
+        },
+        {
+            "variant_id": 503,
+            "id": 5,
+            "sku": "sku5s",
+            "size": "m",
+            "color": "black",
+            "image_id": 512
+        },
+        {
+            "variant_id": 504,
+            "id": 5,
+            "sku": "sku5l",
+            "size": "l",
+            "color": "black",
+            "image_id": 512
+        }
+    ],
+    "images": [{
+            "image_id": 511,
+            "id": 5,
+            "alt": "green",
+            "src": "assets/images/product/fashion/9.jpg",
+            "variant_id": [
+                501,
+                503
+            ]
+        },
+        {
+            "image_id": 512,
+            "id": 5,
+            "alt": "black",
+            "src": "assets/images/product/fashion/10.jpg",
+            "variant_id": [
+                502,
+                504
+            ]
+        }
+    ]
+}, {
+    "id": 6,
+    "title": "crop top",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "max",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 121,
+    "sale": false,
+    "discount": "40",
+    "stock": 30,
+    "new": true,
+    "tags": [
+        "new",
+        "s",
+        "m",
+        "olive",
+        "gray",
+        "red",
+        "max"
+    ],
+    "variants": [{
+            "variant_id": 601,
+            "id": 6,
+            "sku": "sku6",
+            "size": "s",
+            "color": "olive",
+            "image_id": 611
+        },
+        {
+            "variant_id": 602,
+            "id": 6,
+            "sku": "skul6",
+            "size": "s",
+            "color": "gray",
+            "image_id": 612
+        },
+        {
+            "variant_id": 603,
+            "id": 6,
+            "sku": "sku6s",
+            "size": "s",
+            "color": "red",
+            "image_id": 613
+        },
+        {
+            "variant_id": 604,
+            "id": 6,
+            "sku": "sku6l",
+            "size": "m",
+            "color": "olive",
+            "image_id": 611
+        },
+        {
+            "variant_id": 605,
+            "id": 6,
+            "sku": "sku6l",
+            "size": "m",
+            "color": "gray",
+            "image_id": 612
+        },
+        {
+            "variant_id": 606,
+            "id": 6,
+            "sku": "sku6l",
+            "size": "m",
+            "color": "red",
+            "image_id": 613
+        }
+    ],
+    "images": [{
+            "image_id": 611,
+            "id": 6,
+            "alt": "olive",
+            "src": "assets/images/product/fashion/11.jpg",
+            "variant_id": [
+                601,
+                604
+            ]
+        },
+        {
+            "image_id": 612,
+            "id": 6,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/12.jpg",
+            "variant_id": [
+                602,
+                605
+            ]
+        },
+        {
+            "image_id": 613,
+            "id": 6,
+            "alt": "red",
+            "src": "assets/images/product/fashion/22.jpg",
+            "variant_id": [
+                603,
+                606
+            ]
+        }
+    ]
+}, {
+    "id": 7,
+    "title": "sleeveless dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 290,
+    "sale": true,
+    "discount": "10",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "s",
+        "m",
+        "pink",
+        "white",
+        "black",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 701,
+            "id": 7,
+            "sku": "sku7",
+            "size": "s",
+            "color": "pink",
+            "image_id": 711
+        },
+        {
+            "variant_id": 702,
+            "id": 7,
+            "sku": "skul7",
+            "size": "s",
+            "color": "white",
+            "image_id": 712
+        },
+        {
+            "variant_id": 703,
+            "id": 7,
+            "sku": "sku7s",
+            "size": "s",
+            "color": "black",
+            "image_id": 713
+        },
+        {
+            "variant_id": 704,
+            "id": 7,
+            "sku": "sku7l",
+            "size": "m",
+            "color": "pink",
+            "image_id": 711
+        },
+        {
+            "variant_id": 705,
+            "id": 7,
+            "sku": "sku7l",
+            "size": "m",
+            "color": "white",
+            "image_id": 712
+        },
+        {
+            "variant_id": 706,
+            "id": 7,
+            "sku": "sku7l",
+            "size": "m",
+            "color": "black",
+            "image_id": 713
+        }
+    ],
+    "images": [{
+            "image_id": 711,
+            "id": 7,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/13.jpg",
+            "variant_id": [
+                701,
+                704
+            ]
+        },
+        {
+            "image_id": 712,
+            "id": 7,
+            "alt": "white",
+            "src": "assets/images/product/fashion/8.jpg",
+            "variant_id": [
+                702,
+                705
+            ]
+        },
+        {
+            "image_id": 713,
+            "id": 7,
+            "alt": "black",
+            "src": "assets/images/product/fashion/15.jpg",
+            "variant_id": [
+                703,
+                706
+            ]
+        }
+    ]
+}, {
+    "id": 8,
+    "title": "v-neck dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "zara",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 315,
+    "sale": true,
+    "discount": "70",
+    "stock": 15,
+    "new": false,
+    "tags": [
+        "s",
+        "m",
+        "yellow",
+        "black",
+        "zara"
+    ],
+    "variants": [{
+            "variant_id": 801,
+            "id": 8,
+            "sku": "sku8",
+            "size": "s",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 811
+        },
+        {
+            "variant_id": 802,
+            "id": 8,
+            "sku": "skul8",
+            "size": "s",
+            "color": "black",
+            "image_id": 812
+        },
+        {
+            "variant_id": 803,
+            "id": 8,
+            "sku": "sku8s",
+            "size": "m",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 811
+        },
+        {
+            "variant_id": 804,
+            "id": 8,
+            "sku": "sku8l",
+            "size": "m",
+            "color": "black",
+            "image_id": 812
+        }
+    ],
+    "images": [{
+            "image_id": 811,
+            "id": 8,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/14.jpg",
+            "variant_id": [
+                801,
+                804
+            ]
+        },
+        {
+            "image_id": 812,
+            "id": 8,
+            "alt": "black",
+            "src": "assets/images/product/fashion/16.jpg",
+            "variant_id": [
+                802,
+                805
+            ]
+        }
+    ]
+}, {
+    "id": 9,
+    "title": "wrap dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "madame",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 115,
+    "sale": false,
+    "discount": "40",
+    "stock": 36,
+    "new": false,
+    "tags": [
+        "new",
+        "m",
+        "l",
+        "black",
+        "maroon",
+        "madame"
+    ],
+    "variants": [{
+            "variant_id": 901,
+            "id": 9,
+            "sku": "sku9",
+            "size": "m",
+            "color": "black",
+            "image_id": 911
+        },
+        {
+            "variant_id": 902,
+            "id": 9,
+            "sku": "skul9",
+            "size": "l",
+            "color": "black",
+            "image_id": 911
+        },
+        {
+            "variant_id": 903,
+            "id": 9,
+            "sku": "sku9s",
+            "size": "m",
+            "color": "maroon",
+            "image_id": 912
+        },
+        {
+            "variant_id": 904,
+            "id": 9,
+            "sku": "sku9l",
+            "size": "l",
+            "color": "maroon",
+            "image_id": 912
+        }
+    ],
+    "images": [{
+            "image_id": 911,
+            "id": 9,
+            "alt": "black",
+            "src": "assets/images/product/fashion/15.jpg",
+            "variant_id": [
+                901,
+                902
+            ]
+        },
+        {
+            "image_id": 912,
+            "id": 9,
+            "alt": "maroon",
+            "src": "assets/images/product/fashion/17.jpg",
+            "variant_id": [
+                903,
+                904
+            ]
+        }
+    ]
+}, {
+    "id": 10,
+    "title": "floral dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "nike",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 175,
+    "sale": false,
+    "discount": "10",
+    "stock": 1,
+    "new": false,
+    "tags": [
+        "m",
+        "l",
+        "black",
+        "pink",
+        "nike"
+    ],
+    "variants": [{
+            "variant_id": 1001,
+            "id": 10,
+            "sku": "sku10",
+            "size": "m",
+            "color": "black",
+            "image_id": 1011
+        },
+        {
+            "variant_id": 1002,
+            "id": 10,
+            "sku": "skul10",
+            "size": "l",
+            "color": "black",
+            "image_id": 1011
+        },
+        {
+            "variant_id": 1003,
+            "id": 10,
+            "sku": "sku10s",
+            "size": "m",
+            "color": "pink",
+            "image_id": 1012
+        },
+        {
+            "variant_id": 1004,
+            "id": 10,
+            "sku": "sku10l",
+            "size": "l",
+            "color": "pink",
+            "image_id": 1012
+        }
+    ],
+    "images": [{
+            "image_id": 1011,
+            "id": 10,
+            "alt": "black",
+            "src": "assets/images/product/fashion/18.jpg",
+            "variant_id": [
+                1001,
+                1002
+            ]
+        },
+        {
+            "image_id": 1012,
+            "id": 10,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/20.jpg",
+            "variant_id": [
+                1003,
+                1004
+            ]
+        }
+    ]
+}, {
+    "id": 11,
+    "title": "maxi dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 266,
+    "sale": false,
+    "discount": "40",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "new",
+        "m",
+        "l",
+        "red",
+        "black",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 1101,
+            "id": 11,
+            "sku": "sku11",
+            "size": "m",
+            "color": "red",
+            "image_id": 1111
+        },
+        {
+            "variant_id": 1102,
+            "id": 11,
+            "sku": "skul11",
+            "size": "l",
+            "color": "black",
+            "image_id": 1112
+        },
+        {
+            "variant_id": 1103,
+            "id": 11,
+            "sku": "sku11s",
+            "size": "m",
+            "color": "red",
+            "image_id": 1111
+        },
+        {
+            "variant_id": 1104,
+            "id": 11,
+            "sku": "sku11l",
+            "size": "l",
+            "color": "black",
+            "image_id": 1112
+        }
+    ],
+    "images": [{
+            "image_id": 1111,
+            "id": 11,
+            "alt": "red",
+            "src": "assets/images/product/fashion/5.jpg",
+            "variant_id": [
+                1101,
+                1102
+            ]
+        },
+        {
+            "image_id": 1112,
+            "id": 11,
+            "alt": "black",
+            "src": "assets/images/product/fashion/33.jpg",
+            "variant_id": [
+                1103,
+                1104
+            ]
+        }
+    ]
+}, {
+    "id": 12,
+    "title": "boho tops",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "nike",
+    "collection": ["bedste køb", "på udsalg"],
+    "category": "Women",
+    "price": 129,
+    "sale": false,
+    "discount": "40",
+    "stock": 45,
+    "new": false,
+    "tags": [
+        "xs",
+        "s",
+        "m",
+        "red",
+        "pink",
+        "gray",
+        "nike"
+    ],
+    "variants": [{
+            "variant_id": 1201,
+            "id": 12,
+            "sku": "sku12",
+            "size": "xs",
+            "color": "red",
+            "image_id": 1211
+        },
+        {
+            "variant_id": 1202,
+            "id": 12,
+            "sku": "skul12",
+            "size": "xs",
+            "color": "pink",
+            "image_id": 1212
+        },
+        {
+            "variant_id": 1203,
+            "id": 12,
+            "sku": "sku12s",
+            "size": "xs",
+            "color": "gray",
+            "image_id": 1213
+        },
+        {
+            "variant_id": 1204,
+            "id": 12,
+            "sku": "sku12l",
+            "size": "s",
+            "color": "red",
+            "image_id": 1211
+        },
+        {
+            "variant_id": 1205,
+            "id": 12,
+            "sku": "sku12l",
+            "size": "s",
+            "color": "pink",
+            "image_id": 1212
+        },
+        {
+            "variant_id": 1206,
+            "id": 12,
+            "sku": "sku12l",
+            "size": "s",
+            "color": "gray",
+            "image_id": 1213
+        },
+        {
+            "variant_id": 1207,
+            "id": 12,
+            "sku": "sku12l",
+            "size": "m",
+            "color": "red",
+            "image_id": 1211
+        },
+        {
+            "variant_id": 1208,
+            "id": 12,
+            "sku": "sku12l",
+            "size": "m",
+            "color": "pink",
+            "image_id": 1212
+        },
+        {
+            "variant_id": 1209,
+            "id": 12,
+            "sku": "sku12l",
+            "size": "m",
+            "color": "gray",
+            "image_id": 1213
+        }
+    ],
+    "images": [{
+            "image_id": 1211,
+            "id": 12,
+            "alt": "red",
+            "src": "assets/images/product/fashion/22.jpg",
+            "variant_id": [
+                1201,
+                1204,
+                1207
+            ]
+        },
+        {
+            "image_id": 1212,
+            "id": 12,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/27.jpg",
+            "variant_id": [
+                1202,
+                1205,
+                1208
+            ]
+        },
+        {
+            "image_id": 1213,
+            "id": 12,
+            "alt": "black",
+            "src": "assets/images/product/fashion/38.jpg",
+            "variant_id": [
+                1203,
+                1206,
+                1209
+            ]
+        }
+    ]
+}, {
+    "id": 13,
+    "title": "fit-flare dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 148,
+    "sale": false,
+    "discount": "10",
+    "stock": 7,
+    "new": false,
+    "tags": [
+        "xs",
+        "s",
+        "m",
+        "gray",
+        "black",
+        "yellow",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 1301,
+            "id": 13,
+            "sku": "sku13",
+            "size": "xs",
+            "color": "gray",
+            "image_id": 1311
+        },
+        {
+            "variant_id": 1302,
+            "id": 13,
+            "sku": "skul13",
+            "size": "xs",
+            "color": "black",
+            "image_id": 1312
+        },
+        {
+            "variant_id": 1303,
+            "id": 13,
+            "sku": "sku13s",
+            "size": "xs",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 1313
+        },
+        {
+            "variant_id": 1304,
+            "id": 13,
+            "sku": "sku13l",
+            "size": "s",
+            "color": "gray",
+            "image_id": 1311
+        },
+        {
+            "variant_id": 1305,
+            "id": 13,
+            "sku": "sku13l",
+            "size": "s",
+            "color": "black",
+            "image_id": 1312
+        },
+        {
+            "variant_id": 1306,
+            "id": 13,
+            "sku": "sku13l",
+            "size": "s",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 1313
+        },
+        {
+            "variant_id": 1307,
+            "id": 13,
+            "sku": "sku13l",
+            "size": "m",
+            "color": "gray",
+            "image_id": 1311
+        },
+        {
+            "variant_id": 1308,
+            "id": 13,
+            "sku": "sku13l",
+            "size": "m",
+            "color": "black",
+            "image_id": 1312
+        },
+        {
+            "variant_id": 1309,
+            "id": 13,
+            "sku": "sku13l",
+            "size": "m",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 1313
+        }
+    ],
+    "images": [{
+            "image_id": 1311,
+            "id": 13,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/26.jpg",
+            "variant_id": [
+                1301,
+                1304,
+                1307
+            ]
+        },
+        {
+            "image_id": 1312,
+            "id": 13,
+            "alt": "black",
+            "src": "assets/images/product/fashion/34.jpg",
+            "variant_id": [
+                1302,
+                1305,
+                1308
+            ]
+        },
+        {
+            "image_id": 1313,
+            "id": 13,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/39.jpg",
+            "variant_id": [
+                1303,
+                1306,
+                1309
+            ]
+        }
+    ]
+}, {
+    "id": 14,
+    "title": "mini dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "max",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 285,
+    "sale": true,
+    "discount": "30",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "xs",
+        "s",
+        "pink",
+        "gray",
+        "yellow",
+        "max"
+    ],
+    "variants": [{
+            "variant_id": 1401,
+            "id": 14,
+            "sku": "sku14",
+            "size": "xs",
+            "color": "pink",
+            "image_id": 1411
+        },
+        {
+            "variant_id": 1402,
+            "id": 14,
+            "sku": "skul14",
+            "size": "xs",
+            "color": "gray",
+            "image_id": 1412
+        },
+        {
+            "variant_id": 1403,
+            "id": 14,
+            "sku": "sku14s",
+            "size": "xs",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 1413
+        },
+        {
+            "variant_id": 1404,
+            "id": 14,
+            "sku": "sku14l",
+            "size": "s",
+            "color": "pink",
+            "image_id": 1411
+        },
+        {
+            "variant_id": 1405,
+            "id": 14,
+            "sku": "sku14l",
+            "size": "s",
+            "color": "gray",
+            "image_id": 1412
+        },
+        {
+            "variant_id": 1406,
+            "id": 14,
+            "sku": "sku14l",
+            "size": "s",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 1413
+        }
+    ],
+    "images": [{
+            "image_id": 1411,
+            "id": 14,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/36.jpg",
+            "variant_id": [
+                1401,
+                1404
+            ]
+        },
+        {
+            "image_id": 1412,
+            "id": 14,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/28.jpg",
+            "variant_id": [
+                1402,
+                1405
+            ]
+        },
+        {
+            "image_id": 1413,
+            "id": 14,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/14.jpg",
+            "variant_id": [
+                1403,
+                1406
+            ]
+        }
+    ]
+}, {
+    "id": 15,
+    "title": "jumpsuit",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "zara",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 375,
+    "sale": true,
+    "discount": "40",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "xs",
+        "l",
+        "blue",
+        "skyblue",
+        "zara"
+    ],
+    "variants": [{
+            "variant_id": 1501,
+            "id": 15,
+            "sku": "sku15",
+            "size": "xs",
+            "color": "blue",
+            "image_id": 1511
+        },
+        {
+            "variant_id": 1502,
+            "id": 15,
+            "sku": "skul15",
+            "size": "xs",
+            "color": "skyblue",
+            "image_id": 1512
+        },
+        {
+            "variant_id": 1503,
+            "id": 15,
+            "sku": "sku15s",
+            "size": "l",
+            "color": "blue",
+            "image_id": 1511
+        },
+        {
+            "variant_id": 1504,
+            "id": 15,
+            "sku": "sku15l",
+            "size": "l",
+            "color": "skyblue",
+            "image_id": 1512
+        }
+    ],
+    "images": [{
+            "image_id": 1511,
+            "id": 15,
+            "alt": "blue",
+            "src": "assets/images/product/fashion/30.jpg",
+            "variant_id": [
+                1501,
+                1503
+            ]
+        },
+        {
+            "image_id": 1512,
+            "id": 15,
+            "alt": "skyblue",
+            "src": "assets/images/product/fashion/7.jpg",
+            "variant_id": [
+                1502,
+                1504
+            ]
+        }
+    ]
+}, {
+    "id": 16,
+    "title": "pink tunic dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "nike",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 199,
+    "sale": false,
+    "discount": "40",
+    "stock": 30,
+    "new": false,
+    "tags": [
+        "new",
+        "xs",
+        "m",
+        "pink",
+        "black",
+        "blue",
+        "nike"
+    ],
+    "variants": [{
+            "variant_id": 1601,
+            "id": 16,
+            "sku": "sku16",
+            "size": "xs",
+            "color": "pink",
+            "image_id": 1611
+        },
+        {
+            "variant_id": 1602,
+            "id": 16,
+            "sku": "skul16",
+            "size": "xs",
+            "color": "black",
+            "image_id": 1612
+        },
+        {
+            "variant_id": 1603,
+            "id": 16,
+            "sku": "sku16s",
+            "size": "xs",
+            "color": "blue",
+            "image_id": 1613
+        },
+        {
+            "variant_id": 1604,
+            "id": 16,
+            "sku": "sku16l",
+            "size": "m",
+            "color": "pink",
+            "image_id": 1611
+        },
+        {
+            "variant_id": 1605,
+            "id": 16,
+            "sku": "sku16l",
+            "size": "m",
+            "color": "black",
+            "image_id": 1612
+        },
+        {
+            "variant_id": 1606,
+            "id": 16,
+            "sku": "sku16l",
+            "size": "m",
+            "color": "blue",
+            "image_id": 1613
+        }
+    ],
+    "images": [{
+            "image_id": 1611,
+            "id": 16,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/24.jpg",
+            "variant_id": [
+                1601,
+                1604
+            ]
+        },
+        {
+            "image_id": 1612,
+            "id": 16,
+            "alt": "black",
+            "src": "assets/images/product/fashion/35.jpg",
+            "variant_id": [
+                1602,
+                1605
+            ]
+        },
+        {
+            "image_id": 1613,
+            "id": 16,
+            "alt": "blue",
+            "src": "assets/images/product/fashion/4.jpg",
+            "variant_id": [
+                1603,
+                1606
+            ]
+        }
+    ]
+}, {
+    "id": 17,
+    "title": "midi dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "nike",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 400,
+    "sale": true,
+    "discount": "40",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "m",
+        "pink",
+        "maroon",
+        "red",
+        "nike"
+    ],
+    "variants": [{
+            "variant_id": 1701,
+            "id": 17,
+            "sku": "sku17",
+            "size": "m",
+            "color": "pink",
+            "image_id": 1711
+        },
+        {
+            "variant_id": 1702,
+            "id": 17,
+            "sku": "skul17",
+            "size": "m",
+            "color": "maroon",
+            "image_id": 1712
+        },
+        {
+            "variant_id": 1703,
+            "id": 17,
+            "sku": "sku17s",
+            "size": "m",
+            "color": "red",
+            "image_id": 1713
+        }
+    ],
+    "images": [{
+            "image_id": 1711,
+            "id": 17,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/25.jpg",
+            "variant_id": [
+                1701
+            ]
+        },
+        {
+            "image_id": 1712,
+            "id": 17,
+            "alt": "maroon",
+            "src": "assets/images/product/fashion/17.jpg",
+            "variant_id": [
+                1702
+            ]
+        },
+        {
+            "image_id": 1713,
+            "id": 17,
+            "alt": "red",
+            "src": "assets/images/product/fashion/5.jpg",
+            "variant_id": [
+                1703
+            ]
+        }
+    ]
+}, {
+    "id": 18,
+    "title": "tulip dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 145,
+    "sale": false,
+    "discount": "10",
+    "stock": 3,
+    "new": false,
+    "tags": [
+        "xs",
+        "m",
+        "black",
+        "orange",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 1801,
+            "id": 18,
+            "sku": "sku18",
+            "size": "xs",
+            "color": "black",
+            "image_id": 1811
+        },
+        {
+            "variant_id": 1802,
+            "id": 18,
+            "sku": "skul18",
+            "size": "xs",
+            "color": "orange",
+            "image_id": 1812
+        },
+        {
+            "variant_id": 1804,
+            "id": 18,
+            "sku": "sku18l",
+            "size": "m",
+            "color": "black",
+            "image_id": 1811
+        },
+        {
+            "variant_id": 1805,
+            "id": 18,
+            "sku": "sku18l",
+            "size": "m",
+            "color": "orange",
+            "image_id": 1812
+        }
+    ],
+    "images": [{
+            "image_id": 1811,
+            "id": 18,
+            "alt": "black",
+            "src": "assets/images/product/fashion/33.jpg",
+            "variant_id": [
+                1801,
+                1803
+            ]
+        },
+        {
+            "image_id": 1812,
+            "id": 18,
+            "alt": "orange",
+            "src": "assets/images/product/fashion/24.jpg",
+            "variant_id": [
+                1802,
+                1804
+            ]
+        }
+    ]
+}, {
+    "id": 19,
+    "title": "skater dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "max",
+    "collection": ["nye produkter"],
+    "category": "Women",
+    "price": 210,
+    "sale": false,
+    "discount": "40",
+    "stock": 10,
+    "new": true,
+    "tags": [
+        "new",
+        "s",
+        "m",
+        "blue",
+        "gray",
+        "max"
+    ],
+    "variants": [{
+            "variant_id": 1901,
+            "id": 19,
+            "sku": "sku19",
+            "size": "s",
+            "color": "blue",
+            "image_id": 1911
+        },
+        {
+            "variant_id": 1902,
+            "id": 19,
+            "sku": "skul19",
+            "size": "s",
+            "color": "gray",
+            "image_id": 1912
+        },
+        {
+            "variant_id": 1904,
+            "id": 19,
+            "sku": "sku19l",
+            "size": "m",
+            "color": "blue",
+            "image_id": 1911
+        },
+        {
+            "variant_id": 1905,
+            "id": 19,
+            "sku": "sku19l",
+            "size": "m",
+            "color": "gray",
+            "image_id": 1912
+        }
+    ],
+    "images": [{
+            "image_id": 1911,
+            "id": 19,
+            "alt": "blue",
+            "src": "assets/images/product/fashion/40.jpg",
+            "variant_id": [
+                1901,
+                1903
+            ]
+        },
+        {
+            "image_id": 1912,
+            "id": 19,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/38.jpg",
+            "variant_id": [
+                1902,
+                1904
+            ]
+        }
+    ]
+}, {
+    "id": 20,
+    "title": "skater top",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 140,
+    "sale": false,
+    "discount": "40",
+    "stock": 1,
+    "new": false,
+    "tags": [
+        "s",
+        "m",
+        "yellow",
+        "pink",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 2001,
+            "id": 20,
+            "sku": "sku20",
+            "size": "s",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 2011
+        },
+        {
+            "variant_id": 2002,
+            "id": 20,
+            "sku": "skul20",
+            "size": "s",
+            "color": "pink",
+            "image_id": 2012
+        },
+        {
+            "variant_id": 2004,
+            "id": 20,
+            "sku": "sku20l",
+            "size": "m",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 2011
+        },
+        {
+            "variant_id": 2005,
+            "id": 20,
+            "sku": "sku20l",
+            "size": "m",
+            "color": "pink",
+            "image_id": 2012
+        }
+    ],
+    "images": [{
+            "image_id": 2011,
+            "id": 20,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/29.jpg",
+            "variant_id": [
+                2001,
+                2003
+            ]
+        },
+        {
+            "image_id": 2012,
+            "id": 20,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/37.jpg",
+            "variant_id": [
+                2002,
+                2004
+            ]
+        }
+    ]
+}, {
+    "id": 21,
+    "title": "skater dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "madame",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 230,
+    "sale": true,
+    "discount": "30",
+    "stock": 5,
+    "new": false,
+    "tags": [
+        "s",
+        "m",
+        "blue",
+        "gray",
+        "madame"
+    ],
+    "variants": [{
+            "variant_id": 2101,
+            "id": 21,
+            "sku": "sku21",
+            "size": "s",
+            "color": "blue",
+            "image_id": 2111
+        },
+        {
+            "variant_id": 2102,
+            "id": 21,
+            "sku": "skul21",
+            "size": "s",
+            "color": "gray",
+            "image_id": 2112
+        },
+        {
+            "variant_id": 2103,
+            "id": 21,
+            "sku": "sku21l",
+            "size": "m",
+            "color": "blue",
+            "image_id": 2111
+        },
+        {
+            "variant_id": 2104,
+            "id": 21,
+            "sku": "sku21l",
+            "size": "m",
+            "color": "gray",
+            "image_id": 2112
+        }
+    ],
+    "images": [{
+            "image_id": 2111,
+            "id": 21,
+            "alt": "blue",
+            "src": "assets/images/product/fashion/4.jpg",
+            "variant_id": [
+                2101,
+                2103
+            ]
+        },
+        {
+            "image_id": 2112,
+            "id": 21,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/6.jpg",
+            "variant_id": [
+                2102,
+                2104
+            ]
+        }
+    ]
+}, {
+    "id": 22,
+    "title": "bodycon dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "max",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 180,
+    "sale": false,
+    "discount": "15",
+    "stock": 26,
+    "new": false,
+    "tags": [
+        "xs",
+        "m",
+        "yellow",
+        "black",
+        "green",
+        "max"
+    ],
+    "variants": [{
+            "variant_id": 2201,
+            "id": 22,
+            "sku": "sku22",
+            "size": "xs",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 2211
+        },
+        {
+            "variant_id": 2202,
+            "id": 22,
+            "sku": "skul22",
+            "size": "xs",
+            "color": "black",
+            "image_id": 2212
+        },
+        {
+            "variant_id": 2203,
+            "id": 22,
+            "sku": "sku22s",
+            "size": "xs",
+            "color": "green",
+            "image_id": 2213
+        },
+        {
+            "variant_id": 2204,
+            "id": 22,
+            "sku": "sku22l",
+            "size": "m",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 2211
+        },
+        {
+            "variant_id": 2205,
+            "id": 22,
+            "sku": "sku22l",
+            "size": "m",
+            "color": "black",
+            "image_id": 2212
+        },
+        {
+            "variant_id": 2206,
+            "id": 22,
+            "sku": "sku22l",
+            "size": "m",
+            "color": "green",
+            "image_id": 2213
+        }
+    ],
+    "images": [{
+            "image_id": 2211,
+            "id": 22,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/39.jpg",
+            "variant_id": [
+                2201,
+                2204
+            ]
+        },
+        {
+            "image_id": 2212,
+            "id": 22,
+            "alt": "black",
+            "src": "assets/images/product/fashion/34.jpg",
+            "variant_id": [
+                2202,
+                2205
+            ]
+        },
+        {
+            "image_id": 2213,
+            "id": 22,
+            "alt": "green",
+            "src": "assets/images/product/fashion/9.jpg",
+            "variant_id": [
+                2203,
+                2206
+            ]
+        }
+    ]
+}, {
+    "id": 23,
+    "title": "off shoulder dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "max",
+    "collection": ["bedste køb"],
+    "category": "Women",
+    "price": 240,
+    "sale": false,
+    "discount": "40",
+    "stock": 40,
+    "new": false,
+    "tags": [
+        "m",
+        "pink",
+        "black",
+        "gray",
+        "max"
+    ],
+    "variants": [{
+            "variant_id": 2301,
+            "id": 23,
+            "sku": "sku23",
+            "size": "m",
+            "color": "pink",
+            "image_id": 2311
+        },
+        {
+            "variant_id": 2302,
+            "id": 23,
+            "sku": "skul23",
+            "size": "m",
+            "color": "black",
+            "image_id": 2312
+        },
+        {
+            "variant_id": 2303,
+            "id": 23,
+            "sku": "sku23s",
+            "size": "m",
+            "color": "gray",
+            "image_id": 2313
+        }
+    ],
+    "images": [{
+            "image_id": 2311,
+            "id": 23,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/20.jpg",
+            "variant_id": [
+                2301
+            ]
+        },
+        {
+            "image_id": 2312,
+            "id": 23,
+            "alt": "black",
+            "src": "assets/images/product/fashion/19.jpg",
+            "variant_id": [
+                2302
+            ]
+        },
+        {
+            "image_id": 2313,
+            "id": 23,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/28.jpg",
+            "variant_id": [
+                2303
+            ]
+        }
+    ]
+}, {
+    "id": 24,
+    "title": "black short dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "denim",
+    "collection": ["fremhævede produkter"],
+    "category": "Women",
+    "price": 160,
+    "sale": false,
+    "discount": "40",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "s",
+        "black",
+        "white",
+        "pink",
+        "denim"
+    ],
+    "variants": [{
+            "variant_id": 2401,
+            "id": 24,
+            "sku": "sku24",
+            "size": "s",
+            "color": "black",
+            "image_id": 2411
+        },
+        {
+            "variant_id": 2402,
+            "id": 24,
+            "sku": "skul24",
+            "size": "s",
+            "color": "white",
+            "image_id": 2412
+        },
+        {
+            "variant_id": 2403,
+            "id": 24,
+            "sku": "sku24s",
+            "size": "s",
+            "color": "pink",
+            "image_id": 2413
+        }
+    ],
+    "images": [{
+            "image_id": 2411,
+            "id": 24,
+            "alt": "black",
+            "src": "assets/images/product/fashion/23.jpg",
+            "variant_id": [
+                2401
+            ]
+        },
+        {
+            "image_id": 2412,
+            "id": 24,
+            "alt": "white",
+            "src": "assets/images/product/fashion/8.jpg",
+            "variant_id": [
+                2402
+            ]
+        },
+        {
+            "image_id": 2413,
+            "id": 24,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/36.jpg",
+            "variant_id": [
+                2403
+            ]
+        }
+    ]
+}, {
+    "id": 25,
+    "title": "knee length dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "biba",
+    "collection": ["på udsalg"],
+    "category": "Women",
+    "price": 260,
+    "sale": true,
+    "discount": "10",
+    "stock": 14,
+    "new": true,
+    "tags": [
+        "s",
+        "m",
+        "pink",
+        "blue",
+        "biba"
+    ],
+    "variants": [{
+            "variant_id": 2501,
+            "id": 25,
+            "sku": "sku25",
+            "size": "s",
+            "color": "pink",
+            "image_id": 2511
+        },
+        {
+            "variant_id": 2502,
+            "id": 25,
+            "sku": "skul25",
+            "size": "s",
+            "color": "blue",
+            "image_id": 2512
+        },
+        {
+            "variant_id": 2503,
+            "id": 25,
+            "sku": "sku25l",
+            "size": "m",
+            "color": "pink",
+            "image_id": 2511
+        },
+        {
+            "variant_id": 2504,
+            "id": 25,
+            "sku": "sku25l",
+            "size": "m",
+            "color": "blue",
+            "image_id": 2512
+        }
+    ],
+    "images": [{
+            "image_id": 2511,
+            "id": 25,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/37.jpg",
+            "variant_id": [
+                2501,
+                2503
+            ]
+        },
+        {
+            "image_id": 2512,
+            "id": 25,
+            "alt": "blue",
+            "src": "assets/images/product/fashion/32.jpg",
+            "variant_id": [
+                2502,
+                2504
+            ]
+        }
+    ]
+}, {
+    "id": 26,
+    "title": "flutter dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "zara",
+    "collection": ["på udsalg"],
+    "category": "Women",
+    "price": 330,
+    "sale": true,
+    "discount": "40",
+    "stock": 26,
+    "new": true,
+    "tags": [
+        "new",
+        "xs",
+        "m",
+        "black",
+        "gray",
+        "zara"
+    ],
+    "variants": [{
+            "variant_id": 2601,
+            "id": 26,
+            "sku": "sku26",
+            "size": "xs",
+            "color": "black",
+            "image_id": 2611
+        },
+        {
+            "variant_id": 2602,
+            "id": 26,
+            "sku": "skul26",
+            "size": "xs",
+            "color": "gray",
+            "image_id": 2612
+        },
+        {
+            "variant_id": 2603,
+            "id": 26,
+            "sku": "sku26l",
+            "size": "m",
+            "color": "black",
+            "image_id": 2611
+        },
+        {
+            "variant_id": 2604,
+            "id": 26,
+            "sku": "sku26l",
+            "size": "m",
+            "color": "gray",
+            "image_id": 2612
+        }
+    ],
+    "images": [{
+            "image_id": 2611,
+            "id": 26,
+            "alt": "black",
+            "src": "assets/images/product/fashion/10.jpg",
+            "variant_id": [
+                2601,
+                2603
+            ]
+        },
+        {
+            "image_id": 2612,
+            "id": 26,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/38.jpg",
+            "variant_id": [
+                2602,
+                2604
+            ]
+        }
+    ]
+}, {
+    "id": 27,
+    "title": "choker neck dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "max",
+    "collection": ["på udsalg"],
+    "category": "Women",
+    "price": 410,
+    "sale": true,
+    "discount": "30",
+    "stock": 20,
+    "new": true,
+    "tags": [
+        "xs",
+        "m",
+        "skyblue",
+        "yellow",
+        "max"
+    ],
+    "variants": [{
+            "variant_id": 2701,
+            "id": 27,
+            "sku": "sku27",
+            "size": "xs",
+            "color": "skyblue",
+            "image_id": 2711
+        },
+        {
+            "variant_id": 2702,
+            "id": 27,
+            "sku": "skul27",
+            "size": "xs",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 2712
+        },
+        {
+            "variant_id": 2703,
+            "id": 27,
+            "sku": "sku27l",
+            "size": "m",
+            "color": "skyblue",
+            "image_id": 2711
+        },
+        {
+            "variant_id": 2704,
+            "id": 27,
+            "sku": "sku27l",
+            "size": "m",
+            "color": "yellow",
+            "farvetitel": "gul",
+            "image_id": 2712
+        }
+    ],
+    "images": [{
+            "image_id": 2711,
+            "id": 27,
+            "alt": "skyblue",
+            "src": "assets/images/product/fashion/7.jpg",
+            "variant_id": [
+                2701,
+                2703
+            ]
+        },
+        {
+            "image_id": 2712,
+            "id": 27,
+            "alt": "yellow",
+            "src": "assets/images/product/fashion/14.jpg",
+            "variant_id": [
+                2702,
+                2704
+            ]
+        }
+    ]
+}, {
+    "id": 28,
+    "title": "layered dress",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "zara",
+    "collection": ["på udsalg"],
+    "category": "Women",
+    "price": 75,
+    "sale": false,
+    "discount": "40",
+    "stock": 15,
+    "new": false,
+    "tags": [
+        "new",
+        "xs",
+        "maroon",
+        "pink",
+        "zara"
+    ],
+    "variants": [{
+            "variant_id": 2801,
+            "id": 28,
+            "sku": "sku28",
+            "size": "xs",
+            "color": "maroon",
+            "image_id": 2811
+        },
+        {
+            "variant_id": 2802,
+            "id": 28,
+            "sku": "skul28",
+            "size": "xs",
+            "color": "pink",
+            "image_id": 2812
+        }
+    ],
+    "images": [{
+            "image_id": 2811,
+            "id": 28,
+            "alt": "maroon",
+            "src": "assets/images/product/fashion/17.jpg",
+            "variant_id": [
+                2801
+            ]
+        },
+        {
+            "image_id": 2812,
+            "id": 28,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/36.jpg",
+            "variant_id": [
+                2802
+            ]
+        }
+    ]
+}, {
+    "id": 29,
+    "title": "choker neck top",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "denim",
+    "collection": ["på udsalg"],
+    "category": "Women",
+    "price": 155,
+    "sale": false,
+    "discount": "40",
+    "stock": 3,
+    "new": false,
+    "tags": [
+        "m",
+        "gray",
+        "green",
+        "denim"
+    ],
+    "variants": [{
+            "variant_id": 2901,
+            "id": 29,
+            "sku": "sku29",
+            "size": "m",
+            "color": "gray",
+            "image_id": 2911
+        },
+        {
+            "variant_id": 2902,
+            "id": 29,
+            "sku": "skul29",
+            "size": "m",
+            "color": "green",
+            "image_id": 2912
+        }
+    ],
+    "images": [{
+            "image_id": 2911,
+            "id": 29,
+            "alt": "gray",
+            "src": "assets/images/product/fashion/12.jpg",
+            "variant_id": [
+                2901
+            ]
+        },
+        {
+            "image_id": 2912,
+            "id": 29,
+            "alt": "green",
+            "src": "assets/images/product/fashion/11.jpg",
+            "variant_id": [
+                2902
+            ]
+        }
+    ]
+}, {
+    "id": 30,
+    "title": "rolled sleeve top",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "fashion",
+    "brand": "zara",
+    "collection": ["på udsalg"],
+    "category": "Women",
+    "price": 289,
+    "sale": true,
+    "discount": "32",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "m",
+        "pink",
+        "red",
+        "zara"
+    ],
+    "variants": [{
+            "variant_id": 3001,
+            "id": 30,
+            "sku": "sku30",
+            "size": "m",
+            "color": "pink",
+            "image_id": 3011
+        },
+        {
+            "variant_id": 3002,
+            "id": 30,
+            "sku": "skul30",
+            "size": "m",
+            "color": "red",
+            "image_id": 3012
+        }
+    ],
+    "images": [{
+            "image_id": 3011,
+            "id": 30,
+            "alt": "pink",
+            "src": "assets/images/product/fashion/27.jpg",
+            "variant_id": [
+                3001
+            ]
+        },
+        {
+            "image_id": 3012,
+            "id": 30,
+            "alt": "red",
+            "src": "assets/images/product/fashion/22.jpg",
+            "variant_id": [
+                3002
+            ]
+        }
+    ]
+},
+{
+    "id": 121,
+    "title": "elektronik 1",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "sony",
+    "collection": ["bedste køb"],
+    "category": "elektronik",
+    "price": 335,
+    "sale": false,
+    "discount": "10",
+    "stock": 20,
+    "new": false,
+    "tags": [
+        "sony"
+    ],
+    "variants": [{
+        "variant_id": 12101,
+        "id": 121,
+        "sku": "sony19",
+        "image_id": 12111
+    }],
+    "images": [{
+        "image_id": 12111,
+        "id": 121,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/1.jpg",
+        "variant_id": [
+            12101
+        ]
+    }]
+}, {
+    "id": 122,
+    "title": "elektronik 2",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "panasonic",
+    "collection": ["bedste køb", "på udsalg"],
+    "category": "elektronik",
+    "price": 285,
+    "sale": true,
+    "discount": "24",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "panasonic",
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 12201,
+        "id": 122,
+        "sku": "sony19",
+        "image_id": 12211
+    }],
+    "images": [{
+        "image_id": 12211,
+        "id": 122,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/2.jpg",
+        "variant_id": [
+            12201
+        ]
+    }]
+}, {
+    "id": 123,
+    "title": "elektronik 3",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "philips",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 425,
+    "sale": false,
+    "discount": "60",
+    "stock": 15,
+    "new": false,
+    "tags": [
+        "philips"
+    ],
+    "variants": [{
+        "variant_id": 12301,
+        "id": 123,
+        "sku": "philp19",
+        "image_id": 12311
+    }],
+    "images": [{
+        "image_id": 12311,
+        "id": 123,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/3.jpg",
+        "variant_id": [
+            12301
+        ]
+    }]
+}, {
+    "id": 124,
+    "title": "elektronik 4",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "lenovo",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 495,
+    "sale": false,
+    "discount": "30",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "new",
+        "lenovo"
+    ],
+    "variants": [{
+        "variant_id": 12401,
+        "id": 124,
+        "sku": "philp19",
+        "image_id": 12411
+    }],
+    "images": [{
+        "image_id": 12411,
+        "id": 124,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/4.jpg",
+        "variant_id": [
+            12401
+        ]
+    }]
+}, {
+    "id": 125,
+    "title": "elektronik 5",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "sony",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 260,
+    "sale": false,
+    "discount": "90",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "new",
+        "sony"
+    ],
+    "variants": [{
+        "variant_id": 12501,
+        "id": 125,
+        "sku": "philp19",
+        "image_id": 12511
+    }],
+    "images": [{
+        "image_id": 12511,
+        "id": 125,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/5.jpg",
+        "variant_id": [
+            12501
+        ]
+    }]
+}, {
+    "id": 126,
+    "title": "elektronik 6",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "panasonic",
+    "collection": ["bedste køb", "på udsalg"],
+    "category": "elektronik",
+    "price": 185,
+    "sale": false,
+    "discount": "40",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "panasonic"
+    ],
+    "variants": [{
+        "variant_id": 12601,
+        "id": 126,
+        "sku": "new19",
+        "image_id": 12611
+    }],
+    "images": [{
+        "image_id": 12611,
+        "id": 126,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/6.jpg",
+        "variant_id": [
+            12601
+        ]
+    }]
+}, {
+    "id": 127,
+    "title": "elektronik 7",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "samsung",
+    "collection": ["bedste køb", "på udsalg"],
+    "category": "elektronik",
+    "price": 650,
+    "sale": true,
+    "discount": "20",
+    "stock": 5,
+    "new": false,
+    "tags": [
+        "samsung"
+    ],
+    "variants": [{
+        "variant_id": 12701,
+        "id": 127,
+        "sku": "samsung19",
+        "image_id": 12711
+    }],
+    "images": [{
+        "image_id": 12711,
+        "id": 127,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/7.jpg",
+        "variant_id": [
+            12701
+        ]
+    }]
+}, {
+    "id": 128,
+    "title": "elektronik 8",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "apple",
+    "collection": ["bedste køb", "på udsalg"],
+    "category": "elektronik",
+    "price": 265,
+    "sale": false,
+    "discount": "20",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "apple"
+    ],
+    "variants": [{
+        "variant_id": 12801,
+        "id": 128,
+        "sku": "apple19",
+        "image_id": 12811
+    }],
+    "images": [{
+        "image_id": 12811,
+        "id": 128,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/8.jpg",
+        "variant_id": [
+            12801
+        ]
+    }]
+}, {
+    "id": 129,
+    "title": "elektronik 9",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "samsung",
+    "collection": ["bedste køb", "på udsalg", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 375,
+    "sale": false,
+    "discount": "10",
+    "stock": 8,
+    "new": false,
+    "tags": [
+        "samsung"
+    ],
+    "variants": [{
+        "variant_id": 12901,
+        "id": 129,
+        "sku": "samsung19",
+        "image_id": 12911
+    }],
+    "images": [{
+        "image_id": 12911,
+        "id": 129,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/9.jpg",
+        "variant_id": [
+            12901
+        ]
+    }]
+}, {
+    "id": 130,
+    "title": "elektronik 10",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "samsung",
+    "collection": ["bedste køb", "på udsalg", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 560,
+    "sale": true,
+    "discount": "25",
+    "stock": 4,
+    "new": true,
+    "tags": [
+        "samsung"
+    ],
+    "variants": [{
+        "variant_id": 13001,
+        "id": 130,
+        "sku": "samsung19",
+        "image_id": 13011
+    }],
+    "images": [{
+        "image_id": 13011,
+        "id": 130,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/10.jpg",
+        "variant_id": [
+            13001
+        ]
+    }]
+}, {
+    "id": 131,
+    "title": "elektronik 11",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "apple",
+    "collection": ["bedste køb", "på udsalg", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 489,
+    "sale": true,
+    "discount": "40",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "apple"
+    ],
+    "variants": [{
+        "variant_id": 13101,
+        "id": 131,
+        "sku": "apple19",
+        "image_id": 13111
+    }],
+    "images": [{
+        "image_id": 13111,
+        "id": 131,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/11.jpg",
+        "variant_id": [
+            13101
+        ]
+    }]
+}, {
+    "id": 132,
+    "title": "elektronik 12",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "lenovo",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 349,
+    "sale": false,
+    "discount": "30",
+    "stock": 30,
+    "new": false,
+    "tags": [
+        "lenovo"
+    ],
+    "variants": [{
+        "variant_id": 13201,
+        "id": 132,
+        "sku": "apple19",
+        "image_id": 13211
+    }],
+    "images": [{
+        "image_id": 13211,
+        "id": 132,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/12.jpg",
+        "variant_id": [
+            13201
+        ]
+    }]
+}, {
+    "id": 133,
+    "title": "elektronik 13",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "phillips",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 295,
+    "sale": false,
+    "discount": "60",
+    "stock": 10,
+    "new": true,
+    "tags": [
+        "phillips",
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 13301,
+        "id": 133,
+        "sku": "apple19",
+        "image_id": 13311
+    }],
+    "images": [{
+        "image_id": 13311,
+        "id": 133,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/13.jpg",
+        "variant_id": [
+            13301
+        ]
+    }]
+}, {
+    "id": 134,
+    "title": "elektronik 14",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "phillips",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 510,
+    "sale": false,
+    "discount": "40",
+    "stock": 48,
+    "new": true,
+    "tags": [
+        "new",
+        "phillips"
+    ],
+    "variants": [{
+        "variant_id": 13401,
+        "id": 134,
+        "sku": "apple19",
+        "image_id": 13411
+    }],
+    "images": [{
+        "image_id": 13411,
+        "id": 134,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/14.jpg",
+        "variant_id": [
+            13401
+        ]
+    }]
+}, {
+    "id": 135,
+    "title": "elektronik 15",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "panasonic",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 630,
+    "sale": true,
+    "discount": "30",
+    "stock": 10,
+    "new": false,
+    "tags": [
+        "panasonic"
+    ],
+    "variants": [{
+        "variant_id": 13501,
+        "id": 135,
+        "sku": "apple19",
+        "image_id": 13511
+    }],
+    "images": [{
+        "image_id": 13511,
+        "id": 135,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/15.jpg",
+        "variant_id": [
+            13501
+        ]
+    }]
+}, {
+    "id": 136,
+    "title": "elektronik 16",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "phillips",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 680,
+    "sale": true,
+    "discount": "80",
+    "stock": 3,
+    "new": false,
+    "tags": [
+        "phillips"
+    ],
+    "variants": [{
+        "variant_id": 13601,
+        "id": 136,
+        "sku": "apple19",
+        "image_id": 13611
+    }],
+    "images": [{
+        "image_id": 13611,
+        "id": 136,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/16.jpg",
+        "variant_id": [
+            13601
+        ]
+    }]
+}, {
+    "id": 137,
+    "title": "elektronik 17",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "elektronik",
+    "brand": "apple",
+    "collection": ["bedste køb", "fremhævede produkter"],
+    "category": "elektronik",
+    "price": 480,
+    "sale": true,
+    "discount": "50",
+    "stock": 4,
+    "new": true,
+    "tags": [
+        "apple",
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 13701,
+        "id": 137,
+        "sku": "apple19",
+        "image_id": 13711
+    }],
+    "images": [{
+        "image_id": 13711,
+        "id": 137,
+        "alt": "elektronik",
+        "src": "assets/images/product/elektronik/17.jpg",
+        "variant_id": [
+            13701
+        ]
+    }]
+},   {
+    "id": 151,
+    "title": "arm chair",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "casacraft",
+    "collection": ["på udsalg"],
+    "category": "furniture",
+    "price": 250,
+    "sale": false,
+    "discount": "20",
+    "stock": 6,
+    "new": true,
+    "tags": [
+        "casacraft",
+        "saddlebrown",
+        "darkolivegreen"
+    ],
+    "variants": [{
+            "variant_id": 15101,
+            "id": 151,
+            "sku": "chair15",
+            "color": "saddlebrown",
+            "image_id": 15111
+        },
+        {
+            "variant_id": 15102,
+            "id": 151,
+            "sku": "chair15",
+            "color": "darkolivegreen",
+            "image_id": 15112
+        }
+    ],
+    "images": [{
+            "image_id": 15111,
+            "id": 151,
+            "alt": "saddlebrown",
+            "src": "assets/images/product/furniture/1.jpg",
+            "variant_id": [
+                15101
+            ]
+        },
+        {
+            "image_id": 15112,
+            "id": 151,
+            "alt": "darkolivegreen",
+            "src": "assets/images/product/furniture/2.jpg",
+            "variant_id": [
+                15102
+            ]
+        }
+    ]
+}, {
+    "id": 152,
+    "title": "oak Finish chair",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["på udsalg"],
+    "category": "furniture",
+    "price": 290,
+    "sale": false,
+    "discount": "5",
+    "stock": 1,
+    "new": false,
+    "tags": [
+        "woodsworth",
+        "bisque",
+        "saddlebrown"
+    ],
+    "variants": [{
+            "variant_id": 15201,
+            "id": 152,
+            "sku": "chair15",
+            "color": "bisque",
+            "image_id": 15211
+        },
+        {
+            "variant_id": 15202,
+            "id": 152,
+            "sku": "chair15",
+            "color": "saddlebrown",
+            "image_id": 15212
+        }
+    ],
+    "images": [{
+            "image_id": 15211,
+            "id": 152,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/3.jpg",
+            "variant_id": [
+                15201
+            ]
+        },
+        {
+            "image_id": 15212,
+            "id": 152,
+            "alt": "saddlebrown",
+            "src": "assets/images/product/furniture/1.jpg",
+            "variant_id": [
+                15202
+            ]
+        }
+    ]
+}, {
+    "id": 153,
+    "title": "wooden chair",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "casacraft",
+    "collection": ["på udsalg"],
+    "category": "furniture",
+    "price": 400,
+    "sale": false,
+    "discount": "60",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "casacraft",
+        "antiquewhite",
+        "chocolate"
+    ],
+    "variants": [{
+            "variant_id": 15301,
+            "id": 153,
+            "sku": "chair15",
+            "color": "antiquewhite",
+            "image_id": 15311
+        },
+        {
+            "variant_id": 15302,
+            "id": 153,
+            "sku": "chair15",
+            "color": "chocolate",
+            "image_id": 15312
+        }
+    ],
+    "images": [{
+            "image_id": 15311,
+            "id": 153,
+            "alt": "antiquewhite",
+            "src": "assets/images/product/furniture/7.jpg",
+            "variant_id": [
+                15301
+            ]
+        },
+        {
+            "image_id": 15312,
+            "id": 153,
+            "alt": "chocolate",
+            "src": "assets/images/product/furniture/10.jpg",
+            "variant_id": [
+                15302
+            ]
+        }
+    ]
+}, {
+    "id": 154,
+    "title": "Metal Table Lamp",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["på udsalg"],
+    "category": "furniture",
+    "price": 300,
+    "sale": false,
+    "discount": "20",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "woodsworth",
+        "coral",
+        "burlywood"
+    ],
+    "variants": [{
+            "variant_id": 15401,
+            "id": 154,
+            "sku": "chair15",
+            "color": "coral",
+            "image_id": 15411
+        },
+        {
+            "variant_id": 15402,
+            "id": 154,
+            "sku": "chair15",
+            "color": "burlywood",
+            "image_id": 15412
+        }
+    ],
+    "images": [{
+            "image_id": 15411,
+            "id": 154,
+            "alt": "coral",
+            "src": "assets/images/product/furniture/19.jpg",
+            "variant_id": [
+                15401
+            ]
+        },
+        {
+            "image_id": 15412,
+            "id": 154,
+            "alt": "burlywood",
+            "src": "assets/images/product/furniture/20.jpg",
+            "variant_id": [
+                15402
+            ]
+        }
+    ]
+}, {
+    "id": 155,
+    "title": "Wood End Table",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "hometown",
+    "collection": ["på udsalg", "new arrival"],
+    "category": "furniture",
+    "price": 500,
+    "sale": false,
+    "discount": "20",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "new",
+        "hometown",
+        "coral",
+        "burlywood"
+    ],
+    "variants": [{
+            "variant_id": 15501,
+            "id": 155,
+            "sku": "chair15",
+            "color": "coral",
+            "image_id": 15511
+        },
+        {
+            "variant_id": 15502,
+            "id": 155,
+            "sku": "chair15",
+            "color": "burlywood",
+            "image_id": 15512
+        }
+    ],
+    "images": [{
+            "image_id": 15511,
+            "id": 155,
+            "alt": "coral",
+            "src": "assets/images/product/furniture/4.jpg",
+            "variant_id": [
+                15501
+            ]
+        },
+        {
+            "image_id": 15512,
+            "id": 155,
+            "alt": "burlywood",
+            "src": "assets/images/product/furniture/6.jpg",
+            "variant_id": [
+                15502
+            ]
+        }
+    ]
+}, {
+    "id": 156,
+    "title": "Lounge Chair",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "casacraft",
+    "collection": ["på udsalg", "new arrival"],
+    "category": "furniture",
+    "price": 420,
+    "sale": true,
+    "discount": "10",
+    "stock": 25,
+    "new": false,
+    "tags": [
+        "casacraft",
+        "yellow",
+        "burlywood"
+    ],
+    "variants": [{
+            "variant_id": 15601,
+            "id": 156,
+            "sku": "chair15",
+            "color": "yellow",
+            "image_id": 15611
+        },
+        {
+            "variant_id": 15602,
+            "id": 156,
+            "sku": "chair15",
+            "color": "burlywood",
+            "image_id": 15612
+        }
+    ],
+    "images": [{
+            "image_id": 15611,
+            "id": 156,
+            "alt": "yellow",
+            "src": "assets/images/product/furniture/5.jpg",
+            "variant_id": [
+                15601
+            ]
+        },
+        {
+            "image_id": 15612,
+            "id": 156,
+            "alt": "burlywood",
+            "src": "assets/images/product/furniture/9.jpg",
+            "variant_id": [
+                15602
+            ]
+        }
+    ]
+}, {
+    "id": 157,
+    "title": "Rocking Chair",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "casacraft",
+    "collection": ["på udsalg", "new arrival"],
+    "category": "furniture",
+    "price": 560,
+    "sale": true,
+    "discount": "20",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "casacraft",
+        "white",
+        "bisque"
+    ],
+    "variants": [{
+            "variant_id": 15701,
+            "id": 157,
+            "sku": "chair15",
+            "color": "white",
+            "image_id": 15711
+        },
+        {
+            "variant_id": 15702,
+            "id": 157,
+            "sku": "chair15",
+            "color": "bisque",
+            "image_id": 15712
+        }
+    ],
+    "images": [{
+            "image_id": 15711,
+            "id": 157,
+            "alt": "white",
+            "src": "assets/images/product/furniture/8.jpg",
+            "variant_id": [
+                15701
+            ]
+        },
+        {
+            "image_id": 15712,
+            "id": 157,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/21.jpg",
+            "variant_id": [
+                15702
+            ]
+        }
+    ]
+}, {
+    "id": 158,
+    "title": "Barrel Chair",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["på udsalg", "new arrival"],
+    "category": "furniture",
+    "price": 610,
+    "sale": true,
+    "discount": "25",
+    "stock": 25,
+    "new": false,
+    "tags": [
+        "woodsworth",
+        "darkslategrey",
+        "chocolate"
+    ],
+    "variants": [{
+            "variant_id": 15801,
+            "id": 158,
+            "sku": "chair15",
+            "color": "darkslategrey",
+            "image_id": 15811
+        },
+        {
+            "variant_id": 15802,
+            "id": 158,
+            "sku": "chair15",
+            "color": "chocolate",
+            "image_id": 15812
+        }
+    ],
+    "images": [{
+            "image_id": 15811,
+            "id": 158,
+            "alt": "darkslategrey",
+            "src": "assets/images/product/furniture/2.jpg",
+            "variant_id": [
+                15801
+            ]
+        },
+        {
+            "image_id": 15812,
+            "id": 158,
+            "alt": "chocolate",
+            "src": "assets/images/product/furniture/24.jpg",
+            "variant_id": [
+                15802
+            ]
+        }
+    ]
+}, {
+    "id": 159,
+    "title": "folding Chairs",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["bedste køb", "new arrival"],
+    "category": "furniture",
+    "price": 330,
+    "sale": false,
+    "discount": "20",
+    "stock": 20,
+    "new": true,
+    "tags": [
+        "woodsworth",
+        "white",
+        "chocolate"
+    ],
+    "variants": [{
+            "variant_id": 15901,
+            "id": 159,
+            "sku": "chair15",
+            "color": "white",
+            "image_id": 15911
+        },
+        {
+            "variant_id": 15902,
+            "id": 159,
+            "sku": "chair15",
+            "color": "chocolate",
+            "image_id": 15912
+        }
+    ],
+    "images": [{
+            "image_id": 15911,
+            "id": 159,
+            "alt": "white",
+            "src": "assets/images/product/furniture/21.jpg",
+            "variant_id": [
+                15901
+            ]
+        },
+        {
+            "image_id": 15912,
+            "id": 159,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/9.jpg",
+            "variant_id": [
+                15902
+            ]
+        }
+    ]
+}, {
+    "id": 160,
+    "title": "Hanging ligths",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "hometown",
+    "collection": ["bedste køb", "new arrival"],
+    "category": "furniture",
+    "price": 195,
+    "sale": false,
+    "discount": "10",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "hometown",
+        "darkred"
+    ],
+    "variants": [{
+        "variant_id": 16001,
+        "id": 160,
+        "sku": "chair15",
+        "color": "darkred",
+        "image_id": 16011
+    }],
+    "images": [{
+        "image_id": 16011,
+        "id": 160,
+        "alt": "white",
+        "src": "assets/images/product/furniture/10.jpg",
+        "variant_id": [
+            16001
+        ]
+    }]
+}, {
+    "id": 161,
+    "title": "Console tables",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["bedste køb", "new arrival"],
+    "category": "furniture",
+    "price": 450,
+    "sale": true,
+    "discount": "22",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "woodsworth",
+        "darkgoldenrod",
+        "coral"
+    ],
+    "variants": [{
+            "variant_id": 16101,
+            "id": 161,
+            "sku": "chair15",
+            "color": "darkgoldenrod",
+            "image_id": 16111
+        },
+        {
+            "variant_id": 16102,
+            "id": 161,
+            "sku": "chair15",
+            "color": "coral",
+            "image_id": 16112
+        }
+    ],
+    "images": [{
+            "image_id": 16111,
+            "id": 161,
+            "alt": "white",
+            "src": "assets/images/product/furniture/12.jpg",
+            "variant_id": [
+                16101
+            ]
+        },
+        {
+            "image_id": 16112,
+            "id": 161,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/22.jpg",
+            "variant_id": [
+                16102
+            ]
+        }
+    ]
+}, {
+    "id": 162,
+    "title": "sofa sets",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["bedste køb", "new arrival"],
+    "category": "furniture",
+    "price": 574,
+    "sale": true,
+    "discount": "30",
+    "stock": 6,
+    "new": false,
+    "tags": [
+        "woodsworth",
+        "dodgerblue",
+        "yellowgreen"
+    ],
+    "variants": [{
+            "variant_id": 16201,
+            "id": 162,
+            "sku": "chair15",
+            "color": "dodgerblue",
+            "image_id": 16211
+        },
+        {
+            "variant_id": 16202,
+            "id": 162,
+            "sku": "chair15",
+            "color": "yellowgreen",
+            "image_id": 16212
+        }
+    ],
+    "images": [{
+            "image_id": 16211,
+            "id": 162,
+            "alt": "white",
+            "src": "assets/images/product/furniture/14.jpg",
+            "variant_id": [
+                16201
+            ]
+        },
+        {
+            "image_id": 16212,
+            "id": 162,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/13.jpg",
+            "variant_id": [
+                16202
+            ]
+        }
+    ]
+}, {
+    "id": 163,
+    "title": "Wardrobes",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "hometown",
+    "collection": ["bedste køb"],
+    "category": "furniture",
+    "price": 630,
+    "sale": true,
+    "discount": "50",
+    "stock": 6,
+    "new": false,
+    "tags": [
+        "hometown",
+        "burlywood",
+        "brown"
+    ],
+    "variants": [{
+            "variant_id": 16301,
+            "id": 163,
+            "sku": "chair15",
+            "color": "burlywood",
+            "image_id": 16311
+        },
+        {
+            "variant_id": 16302,
+            "id": 163,
+            "sku": "chair15",
+            "color": "brown",
+            "image_id": 16312
+        }
+    ],
+    "images": [{
+            "image_id": 16311,
+            "id": 163,
+            "alt": "white",
+            "src": "assets/images/product/furniture/17.jpg",
+            "variant_id": [
+                16301
+            ]
+        },
+        {
+            "image_id": 16312,
+            "id": 163,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/18.jpg",
+            "variant_id": [
+                16302
+            ]
+        }
+    ]
+}, {
+    "id": 164,
+    "title": "Recliner in gray",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "casacraft",
+    "collection": ["bedste køb"],
+    "category": "furniture",
+    "price": 410,
+    "sale": false,
+    "discount": "12",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "new",
+        "dimgray",
+        "casacraft"
+    ],
+    "variants": [{
+        "variant_id": 16401,
+        "id": 164,
+        "sku": "chair15",
+        "color": "white",
+        "image_id": 16411
+    }],
+    "images": [{
+        "image_id": 16411,
+        "id": 164,
+        "alt": "white",
+        "src": "assets/images/product/furniture/16.jpg",
+        "variant_id": [
+            16401
+        ]
+    }]
+}, {
+    "id": 165,
+    "title": "coffee tables",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "hometown",
+    "collection": ["bedste køb"],
+    "category": "furniture",
+    "price": 500,
+    "sale": false,
+    "discount": "20",
+    "stock": 20,
+    "new": false,
+    "tags": [
+        "hometown",
+        "firebrick",
+        "bisque"
+    ],
+    "variants": [{
+            "variant_id": 16501,
+            "id": 165,
+            "sku": "chair15",
+            "color": "firebrick",
+            "image_id": 16511
+        },
+        {
+            "variant_id": 16502,
+            "id": 165,
+            "sku": "chair15",
+            "color": "bisque",
+            "image_id": 16512
+        }
+    ],
+    "images": [{
+            "image_id": 16511,
+            "id": 165,
+            "alt": "white",
+            "src": "assets/images/product/furniture/23.jpg",
+            "variant_id": [
+                16501
+            ]
+        },
+        {
+            "image_id": 16512,
+            "id": 165,
+            "alt": "bisque",
+            "src": "assets/images/product/furniture/6.jpg",
+            "variant_id": [
+                16502
+            ]
+        }
+    ]
+}, {
+    "id": 166,
+    "title": "Filament Bulbs",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "furniture",
+    "brand": "woodsworth",
+    "collection": ["bedste køb"],
+    "category": "furniture",
+    "price": 315,
+    "sale": true,
+    "discount": "5",
+    "stock": 10,
+    "new": true,
+    "tags": [
+        "woodsworth",
+        "bisque"
+    ],
+    "variants": [{
+        "variant_id": 16602,
+        "id": 166,
+        "sku": "chair15",
+        "color": "bisque",
+        "image_id": 16612
+    }],
+    "images": [{
+        "image_id": 16611,
+        "id": 166,
+        "alt": "white",
+        "src": "assets/images/product/furniture/11.jpg",
+        "variant_id": [
+            16601
+        ]
+    }]
+}, {
+    "id": 167,
+    "title": "Foundation",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "lakme",
+    "collection": ["bedste køb"],
+    "category": "beauty",
+    "price": 225,
+    "sale": false,
+    "discount": "10",
+    "stock": 0,
+    "new": false,
+    "tags": [
+        "lakme"
+    ],
+    "variants": [{
+        "variant_id": 16701,
+        "id": 167,
+        "sku": "lakme5",
+        "image_id": 16711
+    }],
+    "images": [{
+            "image_id": 16711,
+            "id": 167,
+            "alt": "foundation",
+            "src": "assets/images/product/beauty/1.jpg",
+            "variant_id": [
+                16701
+            ]
+        },
+        {
+            "image_id": 16712,
+            "id": 167,
+            "alt": "foundation",
+            "src": "assets/images/product/beauty/2.jpg",
+            "variant_id": [
+                16701
+            ]
+        }
+    ]
+}, {
+    "id": 168,
+    "title": "Bronzer",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "Maybelline",
+    "collection": ["bedste køb"],
+    "category": "beauty",
+    "price": 150,
+    "sale": false,
+    "discount": "10",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "new",
+        "Maybelline"
+    ],
+    "variants": [{
+        "variant_id": 16801,
+        "id": 168,
+        "sku": "lakme5",
+        "image_id": 16811
+    }],
+    "images": [{
+            "image_id": 16811,
+            "id": 168,
+            "alt": "Bronzer",
+            "src": "assets/images/product/beauty/3.jpg",
+            "variant_id": [
+                16801
+            ]
+        },
+        {
+            "image_id": 16812,
+            "id": 168,
+            "alt": "Bronzer",
+            "src": "assets/images/product/beauty/4.jpg",
+            "variant_id": [
+                16801
+            ]
+        }
+    ]
+}, {
+    "id": 169,
+    "title": "Face Primer",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "Nykaa",
+    "collection": ["bedste køb"],
+    "category": "beauty",
+    "price": 312,
+    "sale": true,
+    "discount": "10",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "Nykaa"
+    ],
+    "variants": [{
+        "variant_id": 16901,
+        "id": 169,
+        "sku": "lakme5",
+        "image_id": 16911
+    }],
+    "images": [{
+            "image_id": 16911,
+            "id": 169,
+            "alt": "Primer",
+            "src": "assets/images/product/beauty/2.jpg",
+            "variant_id": [
+                16901
+            ]
+        },
+        {
+            "image_id": 16912,
+            "id": 169,
+            "alt": "Primer",
+            "src": "assets/images/product/beauty/6.jpg",
+            "variant_id": [
+                16901
+            ]
+        }
+    ]
+}, {
+    "id": 170,
+    "title": "Concealer",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "mac",
+    "collection": ["bedste køb"],
+    "category": "beauty",
+    "price": 130,
+    "sale": false,
+    "discount": "20",
+    "stock": 15,
+    "new": false,
+    "tags": [
+        "mac"
+    ],
+    "variants": [{
+        "variant_id": 17001,
+        "id": 170,
+        "sku": "lakme5",
+        "image_id": 17011
+    }],
+    "images": [{
+            "image_id": 17011,
+            "id": 170,
+            "alt": "Concealer",
+            "src": "assets/images/product/beauty/5.jpg",
+            "variant_id": [
+                17001
+            ]
+        },
+        {
+            "image_id": 17012,
+            "id": 170,
+            "alt": "Concealer",
+            "src": "assets/images/product/beauty/1.jpg",
+            "variant_id": [
+                17001
+            ]
+        }
+    ]
+}, {
+    "id": 171,
+    "title": "Mascara",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "Kiko",
+    "collection": ["bedste køb"],
+    "category": "beauty",
+    "price": 225,
+    "sale": false,
+    "discount": "50",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "Kiko"
+    ],
+    "variants": [{
+        "variant_id": 17101,
+        "id": 171,
+        "sku": "lakme5",
+        "image_id": 17111
+    }],
+    "images": [{
+            "image_id": 17111,
+            "id": 171,
+            "alt": "Mascara",
+            "src": "assets/images/product/beauty/4.jpg",
+            "variant_id": [
+                17101
+            ]
+        },
+        {
+            "image_id": 17112,
+            "id": 171,
+            "alt": "Mascara",
+            "src": "assets/images/product/beauty/8.jpg",
+            "variant_id": [
+                17101
+            ]
+        }
+    ]
+}, {
+    "id": 172,
+    "title": "Highlighter",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "mac",
+    "collection": ["på udsalg"],
+    "category": "beauty",
+    "price": 300,
+    "sale": false,
+    "discount": "40",
+    "stock": 15,
+    "new": false,
+    "tags": [
+        "mac"
+    ],
+    "variants": [{
+        "variant_id": 17201,
+        "id": 172,
+        "sku": "lakme5",
+        "image_id": 17211
+    }],
+    "images": [{
+            "image_id": 17211,
+            "id": 172,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/7.jpg",
+            "variant_id": [
+                17201
+            ]
+        },
+        {
+            "image_id": 17212,
+            "id": 172,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/11.jpg",
+            "variant_id": [
+                17201
+            ]
+        }
+    ]
+}, {
+    "id": 173,
+    "title": "Lip Crayon",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "nyka",
+    "collection": ["på udsalg"],
+    "category": "beauty",
+    "price": 265,
+    "sale": true,
+    "discount": "15",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "nyka"
+    ],
+    "variants": [{
+        "variant_id": 17301,
+        "id": 173,
+        "sku": "lakme5",
+        "image_id": 17311
+    }],
+    "images": [{
+            "image_id": 17311,
+            "id": 173,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/8.jpg",
+            "variant_id": [
+                17301
+            ]
+        },
+        {
+            "image_id": 17312,
+            "id": 173,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/6.jpg",
+            "variant_id": [
+                17301
+            ]
+        }
+    ]
+}, {
+    "id": 174,
+    "title": "Lipstick",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "Maybelline",
+    "collection": ["på udsalg"],
+    "category": "beauty",
+    "price": 148,
+    "sale": false,
+    "discount": "10",
+    "stock": 25,
+    "new": false,
+    "tags": [
+        "Lipstick"
+    ],
+    "variants": [{
+        "variant_id": 17401,
+        "id": 174,
+        "sku": "lakme5",
+        "image_id": 17411
+    }],
+    "images": [{
+            "image_id": 17411,
+            "id": 174,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/6.jpg",
+            "variant_id": [
+                17401
+            ]
+        },
+        {
+            "image_id": 17412,
+            "id": 174,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/3.jpg",
+            "variant_id": [
+                17401
+            ]
+        }
+    ]
+}, {
+    "id": 175,
+    "title": "Compact",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "lakme",
+    "collection": ["på udsalg"],
+    "category": "beauty",
+    "price": 160,
+    "sale": false,
+    "discount": "10",
+    "stock": 15,
+    "new": true,
+    "tags": [
+        "lakme"
+    ],
+    "variants": [{
+        "variant_id": 17501,
+        "id": 175,
+        "sku": "lakme5",
+        "image_id": 17511
+    }],
+    "images": [{
+            "image_id": 17511,
+            "id": 175,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/11.jpg",
+            "variant_id": [
+                17501
+            ]
+        },
+        {
+            "image_id": 17512,
+            "id": 175,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/2.jpg",
+            "variant_id": [
+                17501
+            ]
+        }
+    ]
+}, {
+    "id": 176,
+    "title": "Loose Powder",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "beauty",
+    "brand": "kiko",
+    "collection": ["på udsalg"],
+    "category": "beauty",
+    "price": 290,
+    "sale": false,
+    "discount": "10",
+    "stock": 5,
+    "new": false,
+    "tags": [
+        "kiko"
+    ],
+    "variants": [{
+        "variant_id": 17601,
+        "id": 176,
+        "sku": "lakme5",
+        "image_id": 17611
+    }],
+    "images": [{
+            "image_id": 17611,
+            "id": 176,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/9.jpg",
+            "variant_id": [
+                17601
+            ]
+        },
+        {
+            "image_id": 17612,
+            "id": 176,
+            "alt": "Highlighter",
+            "src": "assets/images/product/beauty/11.jpg",
+            "variant_id": [
+                17601
+            ]
+        }
+    ]
+}, {
+    "id": 177,
+    "title": "Wheel Bearing",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "Hyundai",
+    "collection": ["på udsalg"],
+    "category": "tools",
+    "price": 500,
+    "sale": true,
+    "discount": "10",
+    "stock": 20,
+    "new": true,
+    "tags": [
+        "Hyundai"
+    ],
+    "variants": [{
+        "variant_id": 17701,
+        "id": 177,
+        "sku": "tools5",
+        "image_id": 17711
+    }],
+    "images": [{
+        "image_id": 17711,
+        "id": 177,
+        "alt": "tools",
+        "src": "assets/images/product/tools/1.jpg",
+        "variant_id": [
+            17701
+        ]
+    }]
+}, {
+    "id": 178,
+    "title": "cable clutch",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "chevrolet",
+    "collection": ["på udsalg"],
+    "category": "tools",
+    "price": 600,
+    "sale": false,
+    "discount": "30",
+    "stock": 15,
+    "new": false,
+    "tags": [
+        "chevrolet"
+    ],
+    "variants": [{
+        "variant_id": 17801,
+        "id": 178,
+        "sku": "tools5",
+        "image_id": 17811
+    }],
+    "images": [{
+        "image_id": 17811,
+        "id": 178,
+        "alt": "tools",
+        "src": "assets/images/product/tools/2.jpg",
+        "variant_id": [
+            17801
+        ]
+    }]
+}, {
+    "id": 179,
+    "title": "cap wheel",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "Hyundai",
+    "collection": ["på udsalg"],
+    "category": "tools",
+    "price": 666,
+    "sale": false,
+    "discount": "20",
+    "stock": 20,
+    "new": false,
+    "tags": [
+        "Hyundai"
+    ],
+    "variants": [{
+        "variant_id": 17901,
+        "id": 179,
+        "sku": "tools5",
+        "image_id": 17911
+    }],
+    "images": [{
+        "image_id": 17911,
+        "id": 179,
+        "alt": "tools",
+        "src": "assets/images/product/tools/3.jpg",
+        "variant_id": [
+            17901
+        ]
+    }]
+}, {
+    "id": 180,
+    "title": "suspensons",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "fiat",
+    "collection": ["på udsalg"],
+    "category": "tools",
+    "price": 480,
+    "sale": true,
+    "discount": "15",
+    "stock": 5,
+    "new": true,
+    "tags": [
+        "fiat"
+    ],
+    "variants": [{
+        "variant_id": 18001,
+        "id": 180,
+        "sku": "tools56",
+        "image_id": 18011
+    }],
+    "images": [{
+        "image_id": 18011,
+        "id": 180,
+        "alt": "tools",
+        "src": "assets/images/product/tools/4.jpg",
+        "variant_id": [
+            18001
+        ]
+    }]
+}, {
+    "id": 181,
+    "title": "Lubricants",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "nissan",
+    "collection": ["på udsalg"],
+    "category": "tools",
+    "price": 720,
+    "sale": true,
+    "discount": "15",
+    "stock": 30,
+    "new": false,
+    "tags": [
+        "nissan"
+    ],
+    "variants": [{
+        "variant_id": 18101,
+        "id": 181,
+        "sku": "tools56",
+        "image_id": 18111
+    }],
+    "images": [{
+        "image_id": 18111,
+        "id": 181,
+        "alt": "tools",
+        "src": "assets/images/product/tools/5.jpg",
+        "variant_id": [
+            18101
+        ]
+    }]
+}, {
+    "id": 182,
+    "title": "Vacuum Pump, Brake",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "nissan",
+    "collection": ["på udsalg"],
+    "category": "tools",
+    "price": 490,
+    "sale": true,
+    "discount": "5",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "nissan"
+    ],
+    "variants": [{
+        "variant_id": 18201,
+        "id": 182,
+        "sku": "tools56",
+        "image_id": 18211
+    }],
+    "images": [{
+        "image_id": 18211,
+        "id": 182,
+        "alt": "tools",
+        "src": "assets/images/product/tools/6.jpg",
+        "variant_id": [
+            18201
+        ]
+    }]
+}, {
+    "id": 183,
+    "title": "oil filter",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "skoda",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 740,
+    "sale": true,
+    "discount": "20",
+    "stock": 3,
+    "new": true,
+    "tags": [
+        "skoda"
+    ],
+    "variants": [{
+        "variant_id": 18301,
+        "id": 183,
+        "sku": "tools56",
+        "image_id": 18311
+    }],
+    "images": [{
+        "image_id": 18311,
+        "id": 183,
+        "alt": "tools",
+        "src": "assets/images/product/tools/7.jpg",
+        "variant_id": [
+            18301
+        ]
+    }]
+}, {
+    "id": 184,
+    "title": "air cleaner",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "skoda",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 670,
+    "sale": false,
+    "discount": "24",
+    "stock": 0,
+    "new": false,
+    "tags": [
+        "skoda"
+    ],
+    "variants": [{
+        "variant_id": 18401,
+        "id": 184,
+        "sku": "tools46",
+        "image_id": 18411
+    }],
+    "images": [{
+        "image_id": 18411,
+        "id": 184,
+        "alt": "tools",
+        "src": "assets/images/product/tools/8.jpg",
+        "variant_id": [
+            18401
+        ]
+    }]
+}, {
+    "id": 185,
+    "title": "coil ignition",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "chevrolet",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 800,
+    "sale": false,
+    "discount": "10",
+    "stock": 30,
+    "new": false,
+    "tags": [
+        "chevrolet"
+    ],
+    "variants": [{
+        "variant_id": 18501,
+        "id": 185,
+        "sku": "tools46",
+        "image_id": 18511
+    }],
+    "images": [{
+        "image_id": 18511,
+        "id": 185,
+        "alt": "tools",
+        "src": "assets/images/product/tools/9.jpg",
+        "variant_id": [
+            18501
+        ]
+    }]
+}, {
+    "id": 186,
+    "title": "glowplug",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "fiat",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 840,
+    "sale": false,
+    "discount": "20",
+    "stock": 6,
+    "new": false,
+    "tags": [
+        "fiat"
+    ],
+    "variants": [{
+        "variant_id": 18601,
+        "id": 186,
+        "sku": "tools46",
+        "image_id": 18611
+    }],
+    "images": [{
+        "image_id": 18611,
+        "id": 186,
+        "alt": "tools",
+        "src": "assets/images/product/tools/10.jpg",
+        "variant_id": [
+            18601
+        ]
+    }]
+}, {
+    "id": 187,
+    "title": "shock absorber",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "fiat",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 700,
+    "sale": false,
+    "discount": "33",
+    "stock": 3,
+    "new": true,
+    "tags": [
+        "fiat"
+    ],
+    "variants": [{
+        "variant_id": 18701,
+        "id": 187,
+        "sku": "tools46",
+        "image_id": 18711
+    }],
+    "images": [{
+        "image_id": 18711,
+        "id": 187,
+        "alt": "tools",
+        "src": "assets/images/product/tools/12.jpg",
+        "variant_id": [
+            18701
+        ]
+    }]
+}, {
+    "id": 188,
+    "title": "external engines",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "skoda",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 650,
+    "sale": true,
+    "discount": "15",
+    "stock": 5,
+    "new": false,
+    "tags": [
+        "skoda"
+    ],
+    "variants": [{
+        "variant_id": 18801,
+        "id": 188,
+        "sku": "tools46",
+        "image_id": 18811
+    }],
+    "images": [{
+        "image_id": 18811,
+        "id": 188,
+        "alt": "tools",
+        "src": "assets/images/product/tools/13.jpg",
+        "variant_id": [
+            18801
+        ]
+    }]
+}, {
+    "id": 189,
+    "title": "tires and Wheel",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "chevrolet",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 735,
+    "sale": true,
+    "discount": "20",
+    "stock": 4,
+    "new": false,
+    "tags": [
+        "chevrolet"
+    ],
+    "variants": [{
+        "variant_id": 18901,
+        "id": 189,
+        "sku": "tools46",
+        "image_id": 18911
+    }],
+    "images": [{
+        "image_id": 18911,
+        "id": 189,
+        "alt": "tools",
+        "src": "assets/images/product/tools/14.jpg",
+        "variant_id": [
+            18901
+        ]
+    }]
+}, {
+    "id": 190,
+    "title": "gaskets",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "tools",
+    "brand": "fiat",
+    "collection": ["nye produkter"],
+    "category": "tools",
+    "price": 600,
+    "sale": true,
+    "discount": "5",
+    "stock": 565,
+    "new": true,
+    "tags": [
+        "fiat"
+    ],
+    "variants": [{
+        "variant_id": 19001,
+        "id": 190,
+        "sku": "tools46",
+        "image_id": 19011
+    }],
+    "images": [{
+        "image_id": 19011,
+        "id": 190,
+        "alt": "tools",
+        "src": "assets/images/product/tools/16.jpg",
+        "variant_id": [
+            19001
+        ]
+    }]
+}, {
+    "id": 206,
+    "title": "whey protein",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg"],
+    "category": "gym",
+    "price": 150,
+    "sale": true,
+    "discount": "10",
+    "stock": 25,
+    "new": true,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 20601,
+        "id": 206,
+        "sku": "gym46",
+        "image_id": 20611
+    }],
+    "images": [{
+        "image_id": 20611,
+        "id": 206,
+        "alt": "gym",
+        "src": "assets/images/product/gym/4.jpg",
+        "variant_id": [
+            20601
+        ]
+    }]
+}, {
+    "id": 207,
+    "title": "Micellar Casein",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg"],
+    "category": "gym",
+    "price": 220,
+    "sale": false,
+    "discount": "30",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 20701,
+        "id": 207,
+        "sku": "gym46",
+        "image_id": 20711
+    }],
+    "images": [{
+        "image_id": 20711,
+        "id": 207,
+        "alt": "gym",
+        "src": "assets/images/product/gym/6.jpg",
+        "variant_id": [
+            20701
+        ]
+    }]
+}, {
+    "id": 208,
+    "title": "impact isolate",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "Vegan protein",
+    "collection": ["bedste køb"],
+    "category": "gym",
+    "price": 99,
+    "sale": false,
+    "discount": "5",
+    "stock": 1,
+    "new": true,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 20801,
+        "id": 208,
+        "sku": "gym46",
+        "image_id": 20811
+    }],
+    "images": [{
+        "image_id": 20811,
+        "id": 208,
+        "alt": "gym",
+        "src": "assets/images/product/gym/7.jpg",
+        "variant_id": [
+            20801
+        ]
+    }]
+}, {
+    "id": 209,
+    "title": "diet whey",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg"],
+    "category": "gym",
+    "price": 260,
+    "sale": true,
+    "discount": "10",
+    "stock": 10,
+    "new": false,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 20901,
+        "id": 209,
+        "sku": "gym46",
+        "image_id": 20911
+    }],
+    "images": [{
+        "image_id": 20911,
+        "id": 209,
+        "alt": "gym",
+        "src": "assets/images/product/gym/12.jpg",
+        "variant_id": [
+            20901
+        ]
+    }]
+}, {
+    "id": 210,
+    "title": "Peanut Butter",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg"],
+    "category": "gym",
+    "price": 195,
+    "sale": false,
+    "discount": "15",
+    "stock": 3,
+    "new": false,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 21001,
+        "id": 210,
+        "sku": "gym46",
+        "image_id": 21011
+    }],
+    "images": [{
+        "image_id": 21011,
+        "id": 210,
+        "alt": "gym",
+        "src": "assets/images/product/gym/1.jpg",
+        "variant_id": [
+            21001
+        ]
+    }]
+}, {
+    "id": 211,
+    "title": "Impact Diet Whey",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "Vegan protein",
+    "collection": ["på udsalg"],
+    "category": "gym",
+    "price": 90,
+    "sale": false,
+    "discount": "3",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 21101,
+        "id": 211,
+        "sku": "gym46",
+        "image_id": 21111
+    }],
+    "images": [{
+        "image_id": 21111,
+        "id": 211,
+        "alt": "gym",
+        "src": "assets/images/product/gym/9.jpg",
+        "variant_id": [
+            21101
+        ]
+    }]
+}, {
+    "id": 212,
+    "title": "MuscleBlaze gainer",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg"],
+    "category": "gym",
+    "price": 160,
+    "sale": true,
+    "discount": "5",
+    "stock": 0,
+    "new": false,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 21201,
+        "id": 212,
+        "sku": "gym46",
+        "image_id": 21211
+    }],
+    "images": [{
+        "image_id": 21211,
+        "id": 212,
+        "alt": "gym",
+        "src": "assets/images/product/gym/10.jpg",
+        "variant_id": [
+            21201
+        ]
+    }]
+}, {
+    "id": 213,
+    "title": "protein powder",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg", "bedste køb"],
+    "category": "gym",
+    "price": 215,
+    "sale": false,
+    "discount": "15",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 21301,
+        "id": 213,
+        "sku": "gym46",
+        "image_id": 21311
+    }],
+    "images": [{
+        "image_id": 21311,
+        "id": 213,
+        "alt": "gym",
+        "src": "assets/images/product/gym/14.jpg",
+        "variant_id": [
+            21301
+        ]
+    }]
+}, {
+    "id": 214,
+    "title": "Nutriley powder",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "whey protein",
+    "collection": ["på udsalg", "bedste køb"],
+    "category": "gym",
+    "price": 235,
+    "sale": true,
+    "discount": "30",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 21401,
+        "id": 214,
+        "sku": "gym46",
+        "image_id": 21411
+    }],
+    "images": [{
+        "image_id": 21411,
+        "id": 214,
+        "alt": "gym",
+        "src": "assets/images/product/gym/17.jpg",
+        "variant_id": [
+            21401
+        ]
+    }]
+}, {
+    "id": 215,
+    "title": "Isolate Vegan powder",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "gym",
+    "brand": "Vegan protein",
+    "collection": ["på udsalg", "bedste køb"],
+    "category": "gym",
+    "price": 180,
+    "sale": false,
+    "discount": "50",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 21501,
+        "id": 215,
+        "sku": "gym46",
+        "image_id": 21511
+    }],
+    "images": [{
+        "image_id": 21511,
+        "id": 215,
+        "alt": "gym",
+        "src": "assets/images/product/gym/11.jpg",
+        "variant_id": [
+            21501
+        ]
+    }]
+},
+{
+    "id": 216,
+    "title": "Goat Head",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Goat Head",
+    "collection": ["på udsalg"],
+    "category": "marijuana",
+    "price": 150,
+    "sale": true,
+    "discount": "10",
+    "stock": 25,
+    "new": true,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 21601,
+        "id": 216,
+        "sku": "marijuana46",
+        "image_id": 21611
+    }],
+    "images": [{
+        "image_id": 21611,
+        "id": 216,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/1.jpg",
+        "variant_id": [
+            21601
+        ]
+    }]
+}, {
+    "id": 217,
+    "title": "Fruit Tarts",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Fruit Tarts",
+    "collection": ["på udsalg"],
+    "category": "marijuana",
+    "price": 220,
+    "sale": false,
+    "discount": "30",
+    "stock": 2,
+    "new": false,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 21701,
+        "id": 217,
+        "sku": "marijuana46",
+        "image_id": 21711
+    }],
+    "images": [{
+        "image_id": 21711,
+        "id": 217,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/2.jpg",
+        "variant_id": [
+            21701
+        ]
+    }]
+}, {
+    "id": 218,
+    "title": "Tincture",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Tincture",
+    "collection": ["bedste køb"],
+    "category": "marijuana",
+    "price": 99,
+    "sale": false,
+    "discount": "5",
+    "stock": 1,
+    "new": true,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 21801,
+        "id": 218,
+        "sku": "marijuana46",
+        "image_id": 21811
+    }],
+    "images": [{
+        "image_id": 21811,
+        "id": 218,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/3.jpg",
+        "variant_id": [
+            21801
+        ]
+    }]
+}, {
+    "id": 219,
+    "title": "Moon Walk",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Moon Walk",
+    "collection": ["på udsalg"],
+    "category": "marijuana",
+    "price": 260,
+    "sale": true,
+    "discount": "10",
+    "stock": 10,
+    "new": false,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 21901,
+        "id": 219,
+        "sku": "marijuana46",
+        "image_id": 21911
+    }],
+    "images": [{
+        "image_id": 21911,
+        "id": 219,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/4.jpg",
+        "variant_id": [
+            21901
+        ]
+    }]
+}, {
+    "id": 220,
+    "title": "Campfire",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Campfire",
+    "collection": ["på udsalg"],
+    "category": "marijuana",
+    "price": 195,
+    "sale": false,
+    "discount": "15",
+    "stock": 3,
+    "new": false,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 22001,
+        "id": 220,
+        "sku": "marijuana46",
+        "image_id": 22011
+    }],
+    "images": [{
+        "image_id": 22011,
+        "id": 220,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/5.jpg",
+        "variant_id": [
+            22001
+        ]
+    }]
+}, {
+    "id": 221,
+    "title": "Harmonic",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Harmonic",
+    "collection": ["på udsalg"],
+    "category": "marijuana",
+    "price": 90,
+    "sale": false,
+    "discount": "3",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 22101,
+        "id": 221,
+        "sku": "marijuana46",
+        "image_id": 22111
+    }],
+    "images": [{
+        "image_id": 22111,
+        "id": 221,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/6.jpg",
+        "variant_id": [
+            22101
+        ]
+    }]
+}, {
+    "id": 222,
+    "title": "Wappa",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Wappa",
+    "collection": ["på udsalg"],
+    "category": "marijuana",
+    "price": 160,
+    "sale": true,
+    "discount": "5",
+    "stock": 0,
+    "new": false,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 22201,
+        "id": 222,
+        "sku": "marijuana46",
+        "image_id": 22221
+    }],
+    "images": [{
+        "image_id": 22221,
+        "id": 222,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/7.jpg",
+        "variant_id": [
+            22201
+        ]
+    }]
+}, {
+    "id": 223,
+    "title": "Indica",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Indica",
+    "collection": ["på udsalg", "bedste køb"],
+    "category": "marijuana",
+    "price": 225,
+    "sale": false,
+    "discount": "15",
+    "stock": 0,
+    "new": true,
+    "tags": [
+        "new"
+    ],
+    "variants": [{
+        "variant_id": 22301,
+        "id": 223,
+        "sku": "marijuana46",
+        "image_id": 22311
+    }],
+    "images": [{
+        "image_id": 22311,
+        "id": 223,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/8.jpg",
+        "variant_id": [
+            22301
+        ]
+    }]
+}, {
+    "id": 224,
+    "title": "Sativa",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+    "type": "marijuana",
+    "brand": "Sativa",
+    "collection": ["på udsalg", "bedste køb"],
+    "category": "marijuana",
+    "price": 235,
+    "sale": true,
+    "discount": "30",
+    "stock": 2,
+    "new": true,
+    "tags": [
+        "sale"
+    ],
+    "variants": [{
+        "variant_id": 22401,
+        "id": 224,
+        "sku": "marijuana46",
+        "image_id": 22411
+    }],
+    "images": [{
+        "image_id": 22411,
+        "id": 224,
+        "alt": "marijuana",
+        "src": "assets/images/product/marijuana/9.jpg",
+        "variant_id": [
+            22401
+        ]
+    }]
+}
+]

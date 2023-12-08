@@ -23,6 +23,7 @@ export class ProductLeftSidebarComponent implements OnInit {
   public activeSlide: any = 0; 
   public selectedSize: any;
   public mobileSidebar: boolean = false;
+  public uniqColor = []
 
   @ViewChild("sizeChart") SizeChart: SizeModalComponent;
   
@@ -35,6 +36,7 @@ export class ProductLeftSidebarComponent implements OnInit {
     billede: ''
   };
 
+
   constructor(
     private route: ActivatedRoute, 
     private router: Router,
@@ -44,54 +46,140 @@ export class ProductLeftSidebarComponent implements OnInit {
     public title: Title,
     public meta: Meta) { 
 
+
+
+//   this.route.data.subscribe(response => this.product = response.data );
+
+   this.activatedRoute.params.subscribe(params => {
+    this.productService.getProductBySlug2(params.slug)
+    .subscribe((response: any) => {
+      this.product = response;  
+      console.log('response produktside',response);    
+      this.title.setTitle(this.product.title); 
+      this.meta.addTags([
+        { name: 'twitter:card', content: 'summary' },
+         { name: 'twitter:site', content: 'https://friesbureau.dk' },
+        { name: 'twitter:image', content: this.product.images[0].src },
+      
+        { property: 'og:url', content: 'https://friesbureau.dk' },
+        { property: 'og:title', content: this.product.title},
+         { property: 'og:image', content: this.product.images[0].src },
+        { property: 'og:type', content: 'product'},
+        { property: 'og:locale', content: 'da_DK'},
+      
+        {name: 'title', content:  this.product.title },
+        {name: 'description', content:  this.product.description },
+         {name: 'robots', content: 'index, follow'}
+      ]);
+    }, err => {
+      console.log(err);
+    });
+	 
+	});
+
+/*
+      this.productService.getProductBySlug2(this.route.snapshot.params.slug)
+      .subscribe((response: any) => {
+        this.product = response;  
+        console.log('response produktside',response);    
+        this.title.setTitle(this.product.title); 
+        this.meta.addTags([
+          { name: 'twitter:card', content: 'summary' },
+           { name: 'twitter:site', content: 'https://friesbureau.dk' },
+          { name: 'twitter:image', content: this.product.images[0].src },
+        
+          { property: 'og:url', content: 'https://friesbureau.dk' },
+          { property: 'og:title', content: this.product.title},
+           { property: 'og:image', content: this.product.images[0].src },
+          { property: 'og:type', content: 'product'},
+          { property: 'og:locale', content: 'da_DK'},
+        
+          {name: 'title', content:  this.product.title },
+          {name: 'description', content:  this.product.description },
+           {name: 'robots', content: 'index, follow'}
+        ]);
+      }, err => {
+        console.log(err);
+      });
+ 
+      */
+ 
+     
+/*
+      this.productService.getProductBySlug(this.route.snapshot.params.slug)
+      .subscribe((response: Product) => {
+        
+        
+        console.log('tjek af this.produkt',response) 
+        if(response) {
+        this.title.setTitle(response.title);
+      this.meta.addTags([
+        { name: 'twitter:card', content: 'summary' },
+         { name: 'twitter:site', content: 'https://friesbureau.dk' },
+        { name: 'twitter:image', content: this.data.billede },
+      
+        { property: 'og:url', content: 'https://friesbureau.dk' },
+        { property: 'og:title', content: 'test titel'},
+         { property: 'og:image', content: this.data.billede },
+        { property: 'og:type', content: 'product'},
+        { property: 'og:locale', content: 'da_DK'},
+      
+        {name: 'title', content:  'test titel' },
+         {name: 'robots', content: 'index, follow'}
+      ]);
+    }
+      else {
+         console.log('Ingen meta tags');
+        }
+        this.product = response;   
+      }, err => {
+        console.log(err);
+      });
+
+      */
+
+    /*
+      this.productService.getProductbyID(this.route.snapshot.params.slug)
+      .subscribe((response: any) => {
+        this.product = response;
+        console.log('title',this.product.title,'this.product',this.product,);
+      }, err => {
+        console.log(err);
+      });*/
+
+      /*
+      this.productService.getProductBySlug(this.route.snapshot.params.slug)
+      .subscribe((response: any) => {
+        this.product = response;   
+      }, err => {
+        console.log(err);
+      });
+      */
         // this.get(id);
 
-  // this.route.data.subscribe(response => this.product = response.data );
+ 
+ 
 
-  
+//  this.productService.getProductbyID(this.route.snapshot.params.slug)
+ 
 
-  this.productService.getProductBySlug(this.route.snapshot.params.slug)
-        .subscribe((response: any) => {
-          this.product = response;
-
-           /*
-          this.title.setTitle('test');
-          this.meta.addTags([
-            { name: 'twitter:card', content: 'summary' },
-            { name: 'twitter:description', content: this.data.beskrivelse },
-            { name: 'twitter:site', content: 'https://friesbureau.dk' },
-            { name: 'twitter:image', content: this.data.billede },
-        
-            { property: 'og:url', content: 'https://friesbureau.dk' },
-            { property: 'og:title', content: this.data.titel },
-            { property: 'og:description', content: this.data.beskrivelse },
-            { property: 'og:image', content: this.data.billede },
-            { property: 'og:type', content: 'product'},
-            { property: 'og:locale', content: 'da_DK'},
-        
-            {name: 'title', content:  this.data.titel },
-            {name: 'description', content:  this.data.beskrivelse },
-            {name: 'robots', content: 'index, follow'}
-          ]);
-          
-
-          const seo: TagsSeo = {
-            title: this.product.title, 
-            description: this.product.title,
-            image: '',
-            url: '',
-          };
-          this.seoservice.setSeo(seo); */
-       
-        }, err => {
-          console.log(err);
-        });
-
-  
+ 
+           
     }
  
 
     public ngOnInit(): void { 
+
+  
+      
+
+  
+
+
+       // this.get(id);
+    
+ 
+       
    
 //   this.loadProduct();
 
@@ -100,34 +188,43 @@ export class ProductLeftSidebarComponent implements OnInit {
 
 
   loadProduct() {
+    /*
   this.productService.getProductBySlug(this.route.snapshot.params.slug)
         .subscribe((response: any) => {
-          this.product = response;
-
-          
- 
-          const seo: TagsSeo = {
-            title: this.product.title, 
-            description: this.product.title,
-            image: '',
-            url: '',
-          };
-          this.seoservice.setSeo(seo);
-       
+          this.product = response;       
         }, err => {
           console.log(err);
         });
+             */
       }
+ 
   // Get Product Color
+ 
   Color(variants) {
+
+    /*
+    let i = 0;
+    for (const key of Object.keys(variants)) {
+
+
+      this.uniqColor.push(variants[key].color);
+      i++;
+      if (i === Object.keys(variants).length) 
+      return this.uniqColor;
+      break;
+      
+    }
+
+    return false; */
+    
     const uniqColor = []
-    for (let i = 0; i < Object.keys(variants).length; i++) {
+     for (let i = 0; i < Object.keys(variants).length; i++) {
       if (uniqColor.indexOf(variants[i].color) === -1 && variants[i].color) {
         uniqColor.push(variants[i].color)
       }
     }
-    return uniqColor
-  }
+    return uniqColor;
+  } 
 
   // Get Product Size
   Size(variants) {
@@ -136,7 +233,7 @@ export class ProductLeftSidebarComponent implements OnInit {
       if (uniqSize.indexOf(variants[i].size) === -1 && variants[i].size) {
         uniqSize.push(variants[i].size)
       }
-    }
+     }
     return uniqSize
   }
 
@@ -180,28 +277,6 @@ export class ProductLeftSidebarComponent implements OnInit {
     this.mobileSidebar = !this.mobileSidebar;
   }
 
-
-async setMetaTags() {
-    const productstatus = await this.product;
-
-    if(productstatus) {
-    const seo: TagsSeo = {
-      title: `Titel`,
-      description: 'Beskrivelse',
-      image: 'https://friesbureau.dk',
-      url: '',
-    };
-    this.seoservice.setSeo(seo); 
-  }
-    }
-
-
-  timeout() {
-    setTimeout(() =>  {
-      this.title.setTitle('Produkt Titel');
-      this.meta.updateTag({name: 'description', content:'TheRightDoctors  Dr.S Ramakrishnan After discharge of a STEMI patient… story continues'});   
-    }, 
-      5000);
-    }
+ 
  
 }

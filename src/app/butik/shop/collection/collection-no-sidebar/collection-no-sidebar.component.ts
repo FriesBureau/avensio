@@ -27,7 +27,7 @@ export class CollectionNoSidebarComponent implements OnInit {
         this.pageNo = params.page ? params.page : this.pageNo;
 
         // Get Filtered Products..
-        this.productService.getProducts.subscribe(response => {         
+        this.productService.getProducts2().subscribe(response => {         
           // Sorting Filter
           this.products = this.productService.sortProducts(response, this.sortBy);
           // Paginate Products

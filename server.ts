@@ -69,7 +69,7 @@ server.post("/create-payment-intent", async (req, res) => {
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
   const LAZY_MODULE_MAP = require('./src/main.server');
   const productRoute: ProductRoute = new ProductRoute();
-
+  //mongoose.connect('mongodb://FriesBureau:Bagdad2015@cluster0-shard-00-00.csz8w.gcp.mongodb.net:27017,cluster0-shard-00-01.csz8w.gcp.mongodb.net:27017,cluster0-shard-00-02.csz8w.gcp.mongodb.net:27017/Avensio?ssl=true&replicaSet=atlas-4g5on6-shard-0&authSource=admin&retryWrites=true&w=majority', {
   mongoose.connect('mongodb+srv://FriesBureau:Bagdad2015@cluster0.csz8w.gcp.mongodb.net/Avensio?retryWrites=true&w=majority', {
     //  mongoose.connect('mongodb://localhost/angular-ssr', { 
         useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true })
